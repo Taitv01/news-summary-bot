@@ -18,11 +18,18 @@ RSS_FEEDS = [
     {'name': 'VnExpress Mới nhất', 'url': 'https://vnexpress.net/rss/tin-moi-nhat.rss'},
     {'name': 'VnExpress Kinh doanh', 'url': 'https://vnexpress.net/rss/kinh-doanh.rss'},
     {'name': 'Vietstock Chứng khoán', 'url': 'https://vietstock.vn/830/chung-khoan/co-phieu.rss'},
-    {'name': 'US News Money', 'url': 'https://www.usnews.com/rss/money'},
-    {'name': 'US News', 'url': 'https://www.usnews.com/rss/news'},
     {'name': 'Lao Động', 'url': 'https://laodong.vn/rss/tin-moi-nhat.rss'}
 ]
 MAX_ARTICLES_PER_DIGEST = 10
+
+# **FIX:** Danh sách các User-Agent để xoay vòng, giả dạng nhiều trình duyệt khác nhau
+USER_AGENTS = [
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+]
 
 # --- CÁC HÀM LƯU TRỮ (Đọc/ghi file cục bộ) ---
 
@@ -45,7 +52,8 @@ def get_all_news_from_rss(feeds):
     for feed_info in feeds:
         try:
             print(f"  -> Đang lấy từ: {feed_info['name']}")
-            feed = feedparser.parse(feed_info['url'])
+            # Sử dụng một User-Agent ngẫu nhiên khi lấy RSS feed
+            feed = feedparser.parse(feed_info['url'], agent=random.choice(USER_AGENTS))
             for entry in feed.entries[:10]:
                 all_articles.append({
                     'title': entry.title,
@@ -60,13 +68,13 @@ def get_all_news_from_rss(feeds):
 def scrape_article_content(url):
     print(f"Đang lấy nội dung từ: {url}")
     try:
-        # **FIX:** Nâng cấp bộ headers để trông giống người dùng thật nhất có thể
+        # **FIX:** Nâng cấp bộ headers và xoay vòng User-Agent
         headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+            'User-Agent': random.choice(USER_AGENTS),
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
             'Accept-Language': 'en-US,en;q=0.9,vi;q=0.8',
             'Accept-Encoding': 'gzip, deflate, br',
-            'Referer': 'https://www.google.com/', # Giả vờ như truy cập từ Google
+            'Referer': 'https://www.google.com/',
             'Connection': 'keep-alive',
             'Upgrade-Insecure-Requests': '1',
             'DNT': '1'
@@ -76,12 +84,15 @@ def scrape_article_content(url):
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
         
-        # **FIX:** Bổ sung thêm nhiều selector để tìm nội dung trên nhiều trang hơn
+        # **FIX:** Bổ sung thêm nhiều selector hơn nữa để tìm nội dung
         selectors = [
             "article.fck_detail",           # VnExpress (cấu trúc cũ)
             "div.sidebar-1",                # VnExpress (cấu trúc mới)
             "div#article-content",          # Vietstock
             "div.content-detail",           # Vietstock (cấu trúc khác)
+            "div.post-content",             # Cấu trúc blog chung
+            "div.entry-content",            # Cấu trúc blog chung
+            "div.td-post-content",          # Cấu trúc báo chí
             "div.article-content",          # Cấu trúc chung
             "div.singular-content",         # Lao Động
             "div[data-testid='article-body']", # US News
@@ -95,12 +106,23 @@ def scrape_article_content(url):
                 break
         
         if article_body:
-            for unwanted_tag in article_body.select('div, figure, table, script, style, aside'):
+            # Loại bỏ các thẻ không mong muốn
+            for unwanted_tag in article_body.select('div, figure, table, script, style, aside, .ad-placeholder, .related-news'):
                 unwanted_tag.decompose()
+            
             paragraphs = article_body.find_all('p')
+            
+            # Nếu không tìm thấy thẻ <p>, thử lấy toàn bộ text
+            if not paragraphs:
+                content_text = article_body.get_text(separator='\n', strip=True)
+                return content_text
+            
             return "\n".join([p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True)])
             
         print(f"  [CẢNH BÁO] Không tìm thấy selector phù hợp cho trang: {url}")
+        return None
+    except requests.exceptions.RequestException as e:
+        print(f"Lỗi kết nối hoặc timeout khi lấy nội dung: {e}")
         return None
     except Exception as e:
         print(f"Lỗi không xác định khi lấy nội dung: {e}")
@@ -113,8 +135,27 @@ def generate_digest_with_gemini(all_articles_content):
         genai.configure(api_key=GEMINI_API_KEY)
         model = genai.GenerativeModel('gemini-1.5-flash')
         prompt = f"""
-        Bạn là một biên tập viên báo chí chuyên nghiệp...
-        (Nội dung prompt giữ nguyên)
+        Bạn là một biên tập viên báo chí chuyên nghiệp, có nhiệm vụ tạo ra một bản tin tổng hợp cho kênh Telegram từ nhiều nguồn tin tức tiếng Việt và tiếng Anh.
+
+        **Nhiệm vụ:**
+        1.  Đọc và phân tích tất cả các bài báo được cung cấp.
+        2.  **QUAN TRỌNG: Nếu một bài báo được viết bằng tiếng Anh, hãy dịch những ý chính sang tiếng Việt trước khi tóm tắt.**
+        3.  Chọn ra khoảng 3 đến 5 tin tức quan trọng, nổi bật và đáng chú ý nhất từ TẤT CẢ các nguồn.
+        4.  Với MỖI tin tức đã chọn, hãy tóm tắt lại bằng tiếng Việt theo ĐÚNG cấu trúc sau (bao gồm cả tên nguồn):
+            `<b>🔥 [Viết một tiêu đề tin tức thật hấp dẫn bằng tiếng Việt]</b>\n<i>[Tóm tắt súc tích nội dung chính bằng tiếng Việt trong 2-3 câu]</i>\n(Nguồn: [Tên nguồn của bài báo đó])`
+        5.  Sắp xếp các tin đã tóm tắt theo mức độ quan trọng giảm dần (tin nóng nhất, quan trọng nhất lên đầu).
+        6.  Kết hợp tất cả thành một tin nhắn duy nhất cho Telegram. Bắt đầu tin nhắn bằng tiêu đề chính: `☀️ BẢN TIN TỔNG HỢP ☀️`.
+        7.  Phân tách mỗi mục tin tức bằng một dòng `---`.
+
+        **Yêu cầu đầu ra:**
+        - Toàn bộ đầu ra phải bằng tiếng Việt.
+        - Chỉ trả về DUY NHẤT tin nhắn đã được định dạng hoàn chỉnh cho Telegram.
+        - Không thêm bất kỳ lời chào hỏi, lời giải thích, hay ghi chú nào khác.
+
+        **NỘI DUNG CÁC BÀI BÁO CẦN XỬ LÝ:**
+        ---
+        {all_articles_content}
+        ---
         """
         response = model.generate_content(prompt)
         return response.text.strip()
