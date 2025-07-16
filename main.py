@@ -4,7 +4,6 @@ import feedparser
 import google.generativeai as genai
 from bs4 import BeautifulSoup
 import random
-import socket
 
 # --- CẤU HÌNH ---
 PROCESSED_LINKS_FILE = 'processed_links.txt'
@@ -24,7 +23,6 @@ RSS_FEEDS = [
     {'name': 'Lao Động', 'url': 'https://laodong.vn/rss/tin-moi-nhat.rss'}
 ]
 MAX_ARTICLES_PER_DIGEST = 10
-socket.setdefaulttimeout(20)
 
 # --- CÁC HÀM LƯU TRỮ (Đọc/ghi file cục bộ) ---
 
@@ -39,9 +37,8 @@ def save_processed_links(links_set):
         for link in sorted(list(links_set)):
             f.write(link + '\n')
 
-# --- CÁC HÀM CHỨC NĂNG (Giữ nguyên) ---
-# ... (Toàn bộ các hàm get_all_news_from_rss, scrape_article_content, 
-#      generate_digest_with_gemini, send_message_to_telegram giữ nguyên như cũ)
+# --- CÁC HÀM CHỨC NĂNG ---
+
 def get_all_news_from_rss(feeds):
     print("Đang kiểm tra tin tức từ tất cả các nguồn RSS...")
     all_articles = []
@@ -63,8 +60,18 @@ def get_all_news_from_rss(feeds):
 def scrape_article_content(url):
     print(f"Đang lấy nội dung từ: {url}")
     try:
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
-        response = requests.get(url, timeout=20, headers=headers)
+        # **FIX:** Sử dụng một bộ headers đầy đủ hơn để mô phỏng trình duyệt thật
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            'Accept-Language': 'en-US,en;q=0.9,vi;q=0.8',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+            'DNT': '1' # Do Not Track
+        }
+        # **FIX:** Tăng thời gian chờ lên 30 giây để tránh lỗi timeout
+        response = requests.get(url, timeout=30, headers=headers)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
         selectors = [
