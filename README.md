@@ -1,20 +1,30 @@
-# News Summarizer Bot
+# 📰 News Summarizer Bot
 
-Bot tự động lấy và tóm tắt tin tức từ các nguồn RSS Việt Nam.
+> Bot tự động lấy và tóm tắt tin tức từ các nguồn RSS Việt Nam với khả năng anti-detection và retry logic thông minh.
 
-## Tính năng
+## 🚀 Tính năng nổi bật
 
-- ✅ Lấy tin tức từ nhiều nguồn RSS
-- ✅ Tránh trùng lặp với hệ thống tracking
-- ✅ Retry logic và anti-detection
-- ✅ Logging chi tiết
-- ✅ Cấu hình linh hoạt
+- ✅ **Multi-source RSS**: Hỗ trợ nhiều nguồn tin uy tín
+- ✅ **Smart Retry**: Tự động thử lại khi gặp lỗi
+- ✅ **Anti-Detection**: Giả lập trình duyệt thật, tránh bị chặn
+- ✅ **Duplicate Prevention**: Không xử lý tin trùng lặp
+- ✅ **Detailed Logging**: Theo dõi chi tiết quá trình hoạt động
+- ✅ **Flexible Config**: Cấu hình linh hoạt theo nhu cầu
 
-## Nguồn tin hỗ trợ
+## 📊 Nguồn tin được hỗ trợ
 
-- VnExpress (Tin mới nhất, Kinh doanh)
-- Vietstock (Chứng khoán)
-- Lao Động
+| Nguồn | Loại tin | RSS Feed |
+|-------|----------|----------|
+| VnExpress | Tin mới nhất | ✅ |
+| VnExpress | Kinh doanh | ✅ |
+| Vietstock | Chứng khoán | ✅ |
+| Lao Động | Tin tổng hợp | ✅ |
 
-## Cài đặt
+## 🛠️ Cài đặt nhanh
 
+### Yêu cầu hệ thống
+- Python 3.8 trở lên
+- pip package manager
+- Git
+
+### Cài đặt từ GitHub
