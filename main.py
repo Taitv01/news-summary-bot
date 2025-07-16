@@ -60,33 +60,46 @@ def get_all_news_from_rss(feeds):
 def scrape_article_content(url):
     print(f"Đang lấy nội dung từ: {url}")
     try:
-        # **FIX:** Sử dụng một bộ headers đầy đủ hơn để mô phỏng trình duyệt thật
+        # **FIX:** Nâng cấp bộ headers để trông giống người dùng thật nhất có thể
         headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
             'Accept-Language': 'en-US,en;q=0.9,vi;q=0.8',
             'Accept-Encoding': 'gzip, deflate, br',
+            'Referer': 'https://www.google.com/', # Giả vờ như truy cập từ Google
             'Connection': 'keep-alive',
             'Upgrade-Insecure-Requests': '1',
-            'DNT': '1' # Do Not Track
+            'DNT': '1'
         }
-        # **FIX:** Tăng thời gian chờ lên 30 giây để tránh lỗi timeout
+        
         response = requests.get(url, timeout=30, headers=headers)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # **FIX:** Bổ sung thêm nhiều selector để tìm nội dung trên nhiều trang hơn
         selectors = [
-            "article.fck_detail", "div.article-content", "div#article-content",
-            "div[data-testid='article-body']", "div.singular-content"
+            "article.fck_detail",           # VnExpress (cấu trúc cũ)
+            "div.sidebar-1",                # VnExpress (cấu trúc mới)
+            "div#article-content",          # Vietstock
+            "div.content-detail",           # Vietstock (cấu trúc khác)
+            "div.article-content",          # Cấu trúc chung
+            "div.singular-content",         # Lao Động
+            "div[data-testid='article-body']", # US News
+            "main article"                  # Cấu trúc HTML5 chung
         ]
         article_body = None
         for selector in selectors:
             article_body = soup.select_one(selector)
-            if article_body: break
+            if article_body: 
+                print(f"  -> Tìm thấy nội dung với selector: '{selector}'")
+                break
+        
         if article_body:
-            for unwanted_tag in article_body.select('div, figure, table, script'):
+            for unwanted_tag in article_body.select('div, figure, table, script, style, aside'):
                 unwanted_tag.decompose()
             paragraphs = article_body.find_all('p')
-            return "\n".join([p.get_text(strip=True) for p in paragraphs])
+            return "\n".join([p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True)])
+            
         print(f"  [CẢNH BÁO] Không tìm thấy selector phù hợp cho trang: {url}")
         return None
     except Exception as e:
