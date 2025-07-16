@@ -43,6 +43,11 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add processed_links.txt
-          # Chỉ commit và push nếu có sự thay đổi trong file
-          git diff --quiet --exit-code || (git commit -m "Update processed links" && git push)
+          # Chỉ thực hiện các lệnh tiếp theo nếu file processed_links.txt tồn tại
+          if [ -f "processed_links.txt" ]; then
+            git add processed_links.txt
+            # Chỉ commit và push nếu có sự thay đổi trong file đã được thêm vào
+            git diff --staged --quiet || (git commit -m "Update processed links" && git push)
+          else
+            echo "Không có file processed_links.txt mới, bỏ qua bước commit."
+          fi
