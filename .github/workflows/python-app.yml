@@ -1,49 +1,43 @@
 name: News Summarizer Bot
 
-# Cấu hình khi nào workflow sẽ chạy
 on:
   schedule:
-    # Chạy mỗi 4 tiếng
     - cron: '0 */4 * * *'
-  # Cho phép chạy thủ công từ tab Actions
   workflow_dispatch:
 
 jobs:
   run-bot:
-    # Sử dụng máy ảo Ubuntu mới nhất
     runs-on: ubuntu-latest
 
+    # THÊM KHỐI NÀY ĐỂ CẤP QUYỀN GHI CHO WORKFLOW
+    permissions:
+      contents: write
+
     steps:
-    # 1. Lấy mã nguồn từ kho về máy ảo
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    # 2. Cài đặt Python phiên bản 3.10
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
         python-version: '3.10'
 
-    # 3. BƯỚC QUAN TRỌNG: CÀI ĐẶT TRÌNH DUYỆT CHROME
     - name: Install Google Chrome
       uses: browser-actions/setup-chrome@v1
 
-    # 4. Cài đặt các thư viện Python cần thiết
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-    # 5. Chạy file main.py
     - name: Run script
       run: python main.py
 
-    # 6. (Tùy chọn) Commit và đẩy các file dữ liệu mới (nếu có)
     - name: Commit and push data files
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add data/
-        git add bot.log
+        git add -f bot.log
         git commit -m "Update processed links and log" || echo "No changes to commit"
         git push || echo "No changes to push"
