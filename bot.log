@@ -3878,3 +3878,60 @@
 2025-07-17 10:00:58,161 - INFO - Đang đóng trình duyệt ảo...
 2025-07-17 10:00:58,968 - INFO - Đã đóng trình duyệt.
 2025-07-17 10:00:58,968 - INFO - --- Hoàn tất chu kỳ. ---
+2025-07-17 15:32:41,141 - INFO - --- Bot tóm tắt tin tức bắt đầu chạy ---
+2025-07-17 15:32:41,141 - INFO - Đang khởi tạo trình duyệt ảo (Selenium)...
+2025-07-17 15:32:50,242 - INFO - Trình duyệt ảo đã sẵn sàng.
+2025-07-17 15:32:50,242 - INFO - Đã tải 0 links đã xử lý.
+2025-07-17 15:32:50,242 - INFO - Đang kiểm tra tin tức từ tất cả các nguồn RSS...
+2025-07-17 15:32:50,243 - INFO - -> Đang lấy từ: VnExpress Mới nhất
+2025-07-17 15:32:51,746 - INFO - -> Đang lấy từ: VnExpress Kinh doanh
+2025-07-17 15:32:53,399 - INFO - -> Đang lấy từ: Vietstock Chứng khoán
+2025-07-17 15:32:54,795 - INFO - -> Đang lấy từ: Lao Động
+2025-07-17 15:32:55,949 - INFO - Phát hiện 20 bài báo mới. Bắt đầu thu thập nội dung...
+2025-07-17 15:32:55,950 - INFO - Đang lấy nội dung từ: https://vnexpress.net/nhieu-hang-pho-mo-ra-chi-de-ban-cho-nguoi-gia-4915604.html
+2025-07-17 15:36:11,830 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:36:11,832 - INFO - Đang lấy nội dung từ: https://vnexpress.net/4-du-an-nghin-ty-o-khanh-hoa-sap-khoi-cong-dip-quoc-khanh-2-9-4915651.html
+2025-07-17 15:36:27,192 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:36:27,192 - INFO - Đang lấy nội dung từ: https://vnexpress.net/cuu-pho-chu-tich-dong-nai-nhan-sai-trong-vu-dat-cong-thanh-tu-4915677.html
+2025-07-17 15:36:39,577 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:36:39,579 - INFO - Đang lấy nội dung từ: https://vnexpress.net/hoc-vien-chien-luoc-khoa-hoc-va-cong-nghe-muc-tieu-thanh-trung-tam-hang-dau-dong-nam-a-4915676.html
+2025-07-17 15:36:45,695 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:36:45,695 - INFO - Đang lấy nội dung từ: https://vnexpress.net/de-xuat-so-giao-duc-duoc-tuyen-dung-luan-chuyen-giao-vien-4915508.html
+2025-07-17 15:36:52,285 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:36:52,286 - INFO - Đang lấy nội dung từ: https://vnexpress.net/da-nang-mien-giay-phep-xay-dung-cho-loat-du-an-bat-dong-san-4915638.html
+2025-07-17 15:37:00,984 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:37:00,984 - INFO - Đang lấy nội dung từ: https://vnexpress.net/thu-mua-72-con-heo-dich-benh-ban-cho-co-so-lam-lap-xuong-4915682.html
+2025-07-17 15:37:13,319 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:37:13,320 - INFO - Đang lấy nội dung từ: https://vnexpress.net/eunhyuk-super-junior-lam-mc-show-dan-co-vu-vu-tru-4915647.html
+2025-07-17 15:37:20,158 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:37:20,159 - INFO - Đang lấy nội dung từ: https://vnexpress.net/trung-quoc-dieu-tra-vu-cuc-truong-tay-trang-ly-lich-giau-ba-tien-an-4915660.html
+2025-07-17 15:37:28,484 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:37:28,485 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ca-no-cho-26-nguoi-lat-tren-bien-4915671.html
+2025-07-17 15:37:43,028 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:37:43,028 - INFO - Đang lấy nội dung từ: https://vnexpress.net/viet-nam-se-som-dap-ung-tieu-chi-nang-hang-thi-truong-chung-khoan-4915667.html
+2025-07-17 15:37:53,378 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:37:53,379 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chagee-bi-phat-60-trieu-dong-vi-dung-hinh-anh-giong-duong-dut-doan-4915656.html
+2025-07-17 15:38:08,727 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:38:08,728 - INFO - Đang lấy nội dung từ: https://vnexpress.net/co-hoi-canh-tranh-cho-nganh-cong-nghiep-tp-hcm-sau-sap-nhap-4915420.html
+2025-07-17 15:38:20,943 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:38:20,944 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chung-khoan-hom-nay-17-7-co-phieu-bat-dong-san-noi-song-4915557.html
+2025-07-17 15:38:30,609 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:38:30,609 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chu-so-huu-circle-k-tu-bo-viec-mua-cong-ty-me-7-eleven-4915416.html
+2025-07-17 15:38:39,154 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:38:39,155 - INFO - Đang lấy nội dung từ: https://vnexpress.net/gia-xang-moi-nhat-hom-nay-17-7-4915480.html
+2025-07-17 15:38:47,354 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:38:47,355 - INFO - Đang lấy nội dung từ: https://vnexpress.net/trung-quoc-vuot-my-thanh-nha-nhap-khau-thuy-san-lon-nhat-cua-viet-nam-4915436.html
+2025-07-17 15:38:59,211 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:38:59,211 - INFO - Đang lấy nội dung từ: https://vnexpress.net/viet-nam-thai-156-trieu-tan-rom-ra-ba-mia-chi-tai-che-duoc-10-35-4915252.html
+2025-07-17 15:39:07,682 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:39:07,683 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ong-trump-noi-se-rat-hoan-nghenh-neu-chu-tich-fed-tu-chuc-4915287.html
+2025-07-17 15:39:18,875 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:39:18,876 - INFO - Đang lấy nội dung từ: https://vnexpress.net/thi-truong-xe-dien-hai-banh-trung-quoc-phat-trien-ra-sao-4914830.html
+2025-07-17 15:39:27,581 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 15:39:27,582 - INFO - Đã thu thập 20 bài báo. Gộp lại và gửi đi tóm tắt...
+2025-07-17 15:39:56,994 - INFO - Đã nhận tóm tắt từ AI. Chuẩn bị chia và gửi tin nhắn...
+2025-07-17 15:39:57,512 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 15:39:58,943 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 15:39:59,946 - INFO - Đang đóng trình duyệt ảo...
+2025-07-17 15:40:00,184 - INFO - Đã đóng trình duyệt.
+2025-07-17 15:40:00,184 - INFO - --- Hoàn tất chu kỳ. ---
