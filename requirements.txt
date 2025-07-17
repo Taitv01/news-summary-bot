@@ -3,4 +3,6 @@ feedparser==6.0.10
 google-generativeai==0.3.2
 beautifulsoup4==4.12.2
 urllib3==2.0.7
-
+# requirements.txt
+feedparser
+selenium==4.22.0
