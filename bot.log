@@ -342,3 +342,1123 @@
 2025-07-17 05:07:14,608 - INFO - Đang đóng trình duyệt ảo...
 2025-07-17 05:07:15,167 - INFO - Đã đóng trình duyệt.
 2025-07-17 05:07:15,167 - INFO - --- Hoàn tất chu kỳ. ---
+2025-07-17 06:34:01,107 - INFO - --- Bot tóm tắt tin tức bắt đầu chạy ---
+2025-07-17 06:34:01,107 - INFO - Đang khởi tạo trình duyệt ảo (Selenium)...
+2025-07-17 06:34:10,979 - INFO - Trình duyệt ảo đã sẵn sàng.
+2025-07-17 06:34:10,979 - INFO - Đã tải 0 links đã xử lý.
+2025-07-17 06:34:10,979 - INFO - Đang kiểm tra tin tức từ tất cả các nguồn RSS...
+2025-07-17 06:34:10,979 - INFO - -> Đang lấy từ: VnExpress Mới nhất
+2025-07-17 06:34:12,899 - INFO - -> Đang lấy từ: VnExpress Kinh doanh
+2025-07-17 06:34:13,760 - INFO - -> Đang lấy từ: Vietstock Chứng khoán
+2025-07-17 06:34:15,384 - INFO - -> Đang lấy từ: Lao Động
+2025-07-17 06:34:16,412 - INFO - Phát hiện 112 bài báo mới. Bắt đầu xử lý...
+2025-07-17 06:34:16,412 - INFO - Đang xử lý: 5 quả màu đỏ, tím không làm tăng đường h...
+2025-07-17 06:34:16,412 - INFO - Đang lấy nội dung từ: https://vnexpress.net/5-qua-mau-do-tim-khong-lam-tang-duong-huyet-4915425.html
+2025-07-17 06:37:32,278 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:37:32,279 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:37:33,483 - INFO - Đang xử lý: Xe tăng, pháo quân sự hợp luyện chuẩn bị...
+2025-07-17 06:37:33,483 - INFO - Đang lấy nội dung từ: https://vnexpress.net/xe-tang-phao-quan-su-hop-luyen-chuan-bi-dieu-binh-4915405.html
+2025-07-17 06:37:43,904 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:37:43,905 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:37:45,669 - INFO - Đang xử lý: Cục CSGT vận hành trung tâm giám sát và ...
+2025-07-17 06:37:45,669 - INFO - Đang lấy nội dung từ: https://vnexpress.net/cuc-csgt-van-hanh-trung-tam-giam-sat-va-xu-phat-bang-ai-4915346.html
+2025-07-17 06:37:57,003 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:37:57,005 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:37:58,360 - INFO - Đang xử lý: Chiến thuật 'mưa dầm' của châu Âu đẩy ôn...
+2025-07-17 06:37:58,360 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chien-thuat-mua-dam-cua-chau-au-day-ong-trump-nga-ve-ukraine-4915130.html
+2025-07-17 06:38:05,316 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:38:05,317 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:38:06,748 - INFO - Đang xử lý: Hợp tác quốc tế, thu hút tinh hoa toàn c...
+2025-07-17 06:38:06,748 - INFO - Đang lấy nội dung từ: https://vnexpress.net/hop-tac-quoc-te-thu-hut-tinh-hoa-toan-cau-giai-bai-toan-viet-nam-4914769.html
+2025-07-17 06:40:24,846 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:40:24,847 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:40:26,521 - INFO - Đang xử lý: SkyZen phát triển căn hộ cho người trẻ...
+2025-07-17 06:40:26,521 - INFO - Đang lấy nội dung từ: https://vnexpress.net/skyzen-phat-trien-can-ho-cho-nguoi-tre-4915431.html
+2025-07-17 06:40:33,281 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:40:33,282 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:40:34,761 - INFO - Đang xử lý: Ngày hội du học quy tụ 8 trường đại học ...
+2025-07-17 06:40:34,761 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ngay-hoi-du-hoc-quy-tu-8-truong-dai-hoc-top-dau-australia-4915429.html
+2025-07-17 06:40:40,269 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:40:40,269 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:40:41,993 - INFO - Đang xử lý: Điểm sàn Đại học Khoa học Tự nhiên TP HC...
+2025-07-17 06:40:41,993 - INFO - Đang lấy nội dung từ: https://vnexpress.net/diem-san-dai-hoc-khoa-hoc-tu-nhien-tp-hcm-thap-nhat-16-4915410.html
+2025-07-17 06:40:47,535 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:40:47,535 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:40:49,129 - INFO - Đang xử lý: Thủ tướng: Xử lý dứt điểm vướng mắc thủ ...
+2025-07-17 06:40:49,129 - INFO - Đang lấy nội dung từ: https://vnexpress.net/thu-tuong-xu-ly-dut-diem-vuong-mac-thu-tuc-dat-dai-cap-so-do-4915386.html
+2025-07-17 06:40:57,043 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:40:57,044 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:40:58,299 - INFO - Đang xử lý: Người đàn ông chỉ 'thích' nuôi chó bất t...
+2025-07-17 06:40:58,299 - INFO - Đang lấy nội dung từ: https://vnexpress.net/nguoi-dan-ong-chi-thich-nuoi-cho-bat-tri-4915212.html
+2025-07-17 06:41:08,489 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:41:08,489 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:41:09,970 - INFO - Đang xử lý: Các bước chuyển mục đích sử dụng đất ở c...
+2025-07-17 06:41:09,970 - INFO - Đang lấy nội dung từ: https://vnexpress.net/cac-buoc-chuyen-muc-dich-su-dung-dat-o-cap-xa-4915354.html
+2025-07-17 06:41:15,074 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:41:15,076 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:41:16,944 - INFO - Đang xử lý: Điểm chuẩn Đại học Kinh tế Quốc dân có t...
+2025-07-17 06:41:16,944 - INFO - Đang lấy nội dung từ: https://vnexpress.net/du-doan-diem-chuan-dai-hoc-kinh-te-quoc-dan-2025-4915392.html
+2025-07-17 06:41:26,187 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:41:26,188 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:41:27,468 - INFO - Đang xử lý: Cảnh sát nhận tiền của Mbappe bị điều tr...
+2025-07-17 06:41:27,468 - INFO - Đang lấy nội dung từ: https://vnexpress.net/canh-sat-nhan-tien-cua-mbappe-bi-dieu-tra-4915283.html
+2025-07-17 06:41:36,868 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:41:36,869 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:41:38,100 - INFO - Đang xử lý: Xuất hiện ảnh ăng-ten Mỹ cháy đen sau kh...
+2025-07-17 06:41:38,100 - INFO - Đang lấy nội dung từ: https://vnexpress.net/xuat-hien-anh-ang-ten-my-chay-den-sau-khi-trung-ten-lua-iran-4915382.html
+2025-07-17 06:41:46,829 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:41:46,830 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:41:48,169 - INFO - Đang xử lý: Gần 190 nắp hố ga trên tuyến đường ra bi...
+2025-07-17 06:41:48,169 - INFO - Đang lấy nội dung từ: https://vnexpress.net/gan-190-nap-ho-ga-tren-tuyen-duong-ra-bien-bi-trom-4915102.html
+2025-07-17 06:42:00,549 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:42:00,550 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:42:01,829 - INFO - Đang xử lý: Trợ lý y tế cá nhân tích hợp trên thiết ...
+2025-07-17 06:42:01,829 - INFO - Đang lấy nội dung từ: https://vnexpress.net/tro-ly-y-te-ca-nhan-tich-hop-tren-thiet-bi-deo-samsung-4915183.html
+2025-07-17 06:42:08,257 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:42:08,258 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:42:09,522 - INFO - Đang xử lý: Ấn Độ xem xét hồ sơ y tế của cơ trưởng m...
+2025-07-17 06:42:09,522 - INFO - Đang lấy nội dung từ: https://vnexpress.net/an-do-xem-xet-ho-so-y-te-cua-co-truong-may-bay-air-india-4915351.html
+2025-07-17 06:42:24,525 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:42:24,527 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:42:26,227 - INFO - Đang xử lý: Phường nào có diện tích nhỏ nhất TP HCM?...
+2025-07-17 06:42:26,227 - INFO - Đang lấy nội dung từ: https://vnexpress.net/crossword-giai-o-chu-o-chu-tra-cuu-tinh-thanh-sap-nhap-phuong-nao-co-dien-tich-nho-nhat-tp-hcm-4914885.html
+2025-07-17 06:42:34,026 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:42:34,026 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:42:35,379 - INFO - Đang xử lý: Mỗi lần vợ đi vắng, mẹ vợ lại kiểm soát ...
+2025-07-17 06:42:35,379 - INFO - Đang lấy nội dung từ: https://vnexpress.net/me-vo-theo-doi-me-vo-kiem-soat-moi-lan-vo-di-vang-me-vo-lai-kiem-soat-moi-hoat-dong-cua-toi-4915298.html
+2025-07-17 06:42:45,802 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:42:45,803 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:42:46,822 - INFO - Đang xử lý: Đề xuất 'thông tuyến' BHYT cho người 70 ...
+2025-07-17 06:42:46,823 - INFO - Đang lấy nội dung từ: https://vnexpress.net/de-xuat-thong-tuyen-bhyt-cho-nguoi-70-tuoi-4915388.html
+2025-07-17 06:42:54,248 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:42:54,249 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:42:55,930 - INFO - Đang xử lý: 6 biểu hiện của người tiêu tiền khôn ngo...
+2025-07-17 06:42:55,930 - INFO - Đang lấy nội dung từ: https://vnexpress.net/6-bieu-hien-cua-nguoi-tieu-tien-khon-ngoan-4915112.html
+2025-07-17 06:43:06,713 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:43:06,714 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:43:08,247 - INFO - Đang xử lý: Carlsen thua sốc ở Freestyle Chess Grand...
+2025-07-17 06:43:08,248 - INFO - Đang lấy nội dung từ: https://vnexpress.net/carlsen-thua-soc-o-freestyle-chess-grand-slam-4915384.html
+2025-07-17 06:43:17,645 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:43:17,646 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:43:18,947 - INFO - Đang xử lý: Làm giả nước tẩy rửa, doanh nghiệp bị ph...
+2025-07-17 06:43:18,947 - INFO - Đang lấy nội dung từ: https://vnexpress.net/lam-gia-nuoc-tay-rua-doanh-nghiep-bi-phat-180-trieu-dong-4915320.html
+2025-07-17 06:43:28,612 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:43:28,612 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:43:29,997 - INFO - Đang xử lý: Pháp, Italy có thể đã từ chối mua vũ khí...
+2025-07-17 06:43:29,997 - INFO - Đang lấy nội dung từ: https://vnexpress.net/phap-italy-co-the-da-tu-choi-mua-vu-khi-my-de-vien-tro-ukraine-4915317.html
+2025-07-17 06:43:38,901 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:43:38,902 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:43:40,087 - INFO - Đang xử lý: Đề nghị không gộp chức năng công chứng v...
+2025-07-17 06:43:40,087 - INFO - Đang lấy nội dung từ: https://vnexpress.net/de-nghi-khong-gop-chuc-nang-cong-chung-vao-trung-tam-giao-dich-nha-dat-4915378.html
+2025-07-17 06:43:50,182 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:43:50,183 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:43:51,660 - INFO - Đang xử lý: Tìm anh cùng chạy deadline cuối năm nay...
+2025-07-17 06:43:51,660 - INFO - Đang lấy nội dung từ: https://vnexpress.net/tim-anh-cung-chay-deadline-cuoi-nam-nay-4915322.html
+2025-07-17 06:43:59,360 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:43:59,361 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:44:00,862 - INFO - Đang xử lý: Điều gì xảy ra với những đứa trẻ được độ...
+2025-07-17 06:44:00,863 - INFO - Đang lấy nội dung từ: https://vnexpress.net/dieu-gi-xay-ra-voi-nhung-dua-tre-duoc-dong-vat-nuoi-duong-4915437.html
+2025-07-17 06:46:23,714 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:46:23,714 - WARNING - [CẢNH BÁO] Nội dung quá ngắn (50 ký tự)
+2025-07-17 06:46:23,714 - WARNING - -> Không trích xuất được nội dung.
+2025-07-17 06:46:23,714 - INFO - Đang xử lý: MSB công bố khung tài chính bền vững...
+2025-07-17 06:46:23,714 - INFO - Đang lấy nội dung từ: https://vnexpress.net/msb-cong-bo-khung-tai-chinh-ben-vung-4915297.html
+2025-07-17 06:46:29,312 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:46:29,313 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:46:30,839 - INFO - Đang xử lý: Cơ hội sở hữu xe máy Honda Vision khi mu...
+2025-07-17 06:46:30,839 - INFO - Đang lấy nội dung từ: https://vnexpress.net/co-hoi-so-huu-xe-may-honda-vision-khi-mua-banh-tho-phat-4915114.html
+2025-07-17 06:46:39,624 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:46:39,625 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:46:41,302 - INFO - Đang xử lý: Tổng giám đốc Vietnam Airlines: 'Nhiều c...
+2025-07-17 06:46:41,302 - INFO - Đang lấy nội dung từ: https://vnexpress.net/tong-giam-doc-vietnam-airlines-nhieu-chi-so-se-vuot-ke-hoach-4915110.html
+2025-07-17 06:46:48,270 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:46:48,270 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:46:49,782 - INFO - Đang xử lý: Khoảnh khắc tên lửa Iskander-M tập kích ...
+2025-07-17 06:46:49,782 - INFO - Đang lấy nội dung từ: https://vnexpress.net/khoanh-khac-ten-lua-iskander-m-tap-kich-tran-dia-s-300-ukraine-4915333.html
+2025-07-17 06:46:58,681 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:46:58,683 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:46:59,963 - INFO - Đang xử lý: Những cô gái tiêm tan filler, tháo túi n...
+2025-07-17 06:46:59,963 - INFO - Đang lấy nội dung từ: https://vnexpress.net/nhung-co-gai-tiem-tan-filler-thao-tui-nguc-4915364.html
+2025-07-17 06:47:07,793 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:47:07,795 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:47:09,467 - INFO - Đang xử lý: Siêu máy tính AI thực hiện 400 triệu tỷ ...
+2025-07-17 06:47:09,467 - INFO - Đang lấy nội dung từ: https://vnexpress.net/sieu-may-tinh-ai-thuc-hien-400-trieu-ty-phep-tinh-giay-4914822.html
+2025-07-17 06:47:18,278 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:47:18,278 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:47:19,659 - INFO - Đang xử lý: Ông bố cầu cứu vì bài toán tiểu học 'điê...
+2025-07-17 06:47:19,659 - INFO - Đang lấy nội dung từ: https://vnexpress.net/cau-do-toan-hoc-bai-toan-tieu-hoc-ong-bo-len-mang-cau-cuu-vi-bai-toan-tieu-hoc-dien-ro-cua-dua-con-10-tuoi-4915357.html
+2025-07-17 06:47:29,445 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:47:29,446 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:47:30,455 - INFO - Đang xử lý: Tài xế gây tai nạn liên hoàn ở Hà Nội kh...
+2025-07-17 06:47:30,455 - INFO - Đang lấy nội dung từ: https://vnexpress.net/tai-xe-khai-buon-ngu-sau-uong-ruou-nen-gay-tai-nan-lien-hoan-o-ha-noi-4915380.html
+2025-07-17 06:47:40,253 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:47:40,254 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:47:41,203 - INFO - Đang xử lý: OpenDots One - tai nghe không nhét tai t...
+2025-07-17 06:47:41,203 - INFO - Đang lấy nội dung từ: https://vnexpress.net/opendots-one-tai-nghe-khong-nhet-tai-tich-hop-dolby-audio-4915372.html
+2025-07-17 06:47:49,162 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:47:49,163 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:47:50,514 - INFO - Đang xử lý: Lợi thế của công nghệ hàn MIG...
+2025-07-17 06:47:50,514 - INFO - Đang lấy nội dung từ: https://vnexpress.net/loi-the-cua-cong-nghe-han-mig-4915358.html
+2025-07-17 06:47:59,580 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:47:59,581 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:48:00,967 - INFO - Đang xử lý: Điểm thi tốt nghiệp THPT 2025 phơi bày t...
+2025-07-17 06:48:00,967 - INFO - Đang lấy nội dung từ: https://vnexpress.net/tra-cuu-diem-thi-thpt-2025-diem-thi-dai-hoc-2025-diem-thi-tot-nghiep-thpt-2025-phoi-bay-trinh-do-that-cua-hoc-sinh-4915359.html
+2025-07-17 06:48:09,106 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:48:09,107 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:48:10,666 - INFO - Đang xử lý: Trang phục giúp Phương Mỹ Chi tỏa sáng ở...
+2025-07-17 06:48:10,666 - INFO - Đang lấy nội dung từ: https://vnexpress.net/trang-phuc-giup-phuong-my-chi-toa-sang-o-sing-asia-4915221.html
+2025-07-17 06:48:17,634 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:48:17,635 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:48:19,156 - INFO - Đang xử lý: Cháy lớn tại xưởng sát khu dân cư ở TP H...
+2025-07-17 06:48:19,156 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chay-lon-tai-xuong-sat-khu-dan-cu-o-tp-hcm-4915344.html
+2025-07-17 06:48:27,344 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:48:27,345 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:48:28,461 - INFO - Đang xử lý: Biến chứng bàn chân bẹt do tiểu đường là...
+2025-07-17 06:48:28,461 - INFO - Đang lấy nội dung từ: https://vnexpress.net/bien-chung-ban-chan-bet-do-tieu-duong-la-gi-4915340.html
+2025-07-17 06:48:35,721 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:48:35,721 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:48:37,523 - INFO - Đang xử lý: 8 phương pháp điều trị ung thư phổi di c...
+2025-07-17 06:48:37,523 - INFO - Đang lấy nội dung từ: https://vnexpress.net/8-phuong-phap-dieu-tri-ung-thu-phoi-di-can-xuong-4915315.html
+2025-07-17 06:48:42,417 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:48:42,417 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:48:43,696 - INFO - Đang xử lý: Gelex Electric lãi hơn 1.300 tỷ đồng nửa...
+2025-07-17 06:48:43,696 - INFO - Đang lấy nội dung từ: https://vnexpress.net/gelex-electric-lai-hon-1-300-ty-dong-nua-dau-nam-4915291.html
+2025-07-17 06:48:50,296 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:48:50,297 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:48:51,959 - INFO - Đang xử lý: Tim phình to gấp đôi sau 17 năm hẹp van ...
+2025-07-17 06:48:51,959 - INFO - Đang lấy nội dung từ: https://vnexpress.net/tim-phinh-to-gap-doi-sau-17-nam-hep-van-hai-la-4915286.html
+2025-07-17 06:49:00,456 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:49:00,456 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:49:01,979 - INFO - Đang xử lý: Lãnh đạo Dược Hậu Giang: 'Tiêu chuẩn quố...
+2025-07-17 06:49:01,979 - INFO - Đang lấy nội dung từ: https://vnexpress.net/lanh-dao-duoc-hau-giang-tieu-chuan-quoc-te-trong-tung-vien-thuoc-4915124.html
+2025-07-17 06:49:11,037 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:49:11,039 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:49:12,437 - INFO - Đang xử lý: Phanh gấp xe máy, người phụ nữ lăn vào b...
+2025-07-17 06:49:12,437 - INFO - Đang lấy nội dung từ: https://vnexpress.net/phanh-gap-xe-may-nguoi-phu-nu-lan-vao-banh-xe-tai-4915304.html
+2025-07-17 06:49:24,457 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:49:24,458 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:49:25,540 - INFO - Đang xử lý: Chủ tịch Hạ viện Mỹ muốn hàn gắn với Elo...
+2025-07-17 06:49:25,540 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chu-tich-ha-vien-my-muon-han-gan-voi-elon-musk-4915307.html
+2025-07-17 06:49:36,931 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:49:36,933 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:49:38,313 - INFO - Đang xử lý: Bắt đầu bình chọn Sản phẩm tôi yêu 2025...
+2025-07-17 06:49:38,314 - INFO - Đang lấy nội dung từ: https://vnexpress.net/bat-dau-binh-chon-san-pham-toi-yeu-2025-4915011.html
+2025-07-17 06:49:45,983 - WARNING - [CẢNH BÁO] Không tìm thấy selector phù hợp cho: https://vnexpress.net/bat-dau-binh-chon-san-pham-toi-yeu-2025-4915011.html
+2025-07-17 06:49:45,984 - INFO - [FALLBACK] Sử dụng toàn bộ nội dung body
+2025-07-17 06:49:45,985 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:49:46,702 - INFO - Đang xử lý: Việt Nam thải 156 triệu tấn rơm rạ, bã m...
+2025-07-17 06:49:46,702 - INFO - Đang lấy nội dung từ: https://vnexpress.net/viet-nam-thai-156-trieu-tan-rom-ra-ba-mia-chi-tai-che-duoc-10-35-4915252.html
+2025-07-17 06:49:59,694 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:49:59,695 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:50:01,121 - INFO - Đang xử lý: Bí mật đường đi của hành lý ký gửi ở sân...
+2025-07-17 06:50:01,121 - INFO - Đang lấy nội dung từ: https://vnexpress.net/bi-mat-duong-di-cua-hanh-ly-ky-gui-o-san-bay-4915186.html
+2025-07-17 06:50:09,852 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:50:09,853 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:50:10,791 - INFO - Đang xử lý: Mỹ muốn siết công nghệ cáp biển viễn thô...
+2025-07-17 06:50:10,791 - INFO - Đang lấy nội dung từ: https://vnexpress.net/my-muon-siet-cong-nghe-cap-bien-vien-thong-cua-trung-quoc-4915302.html
+2025-07-17 06:50:16,631 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:50:16,631 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:50:17,910 - INFO - Đang xử lý: Người Ukraine hoài nghi về tối hậu thư c...
+2025-07-17 06:50:17,910 - INFO - Đang lấy nội dung từ: https://vnexpress.net/nguoi-ukraine-hoai-nghi-ve-toi-hau-thu-cua-ong-trump-voi-nga-4915066.html
+2025-07-17 06:50:28,572 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:50:28,573 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:50:28,662 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 31
+}
+]
+2025-07-17 06:50:28,662 - INFO - Đang xử lý: Việt Nam thải 156 triệu tấn rơm rạ, bã m...
+2025-07-17 06:50:28,662 - INFO - Đang lấy nội dung từ: https://vnexpress.net/viet-nam-thai-156-trieu-tan-rom-ra-ba-mia-chi-tai-che-duoc-10-35-4915252.html
+2025-07-17 06:50:41,077 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:50:41,078 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:50:42,594 - INFO - Đang xử lý: Ông Trump nói 'sẽ rất hoan nghênh' nếu C...
+2025-07-17 06:50:42,594 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ong-trump-noi-se-rat-hoan-nghenh-neu-chu-tich-fed-tu-chuc-4915287.html
+2025-07-17 06:50:53,944 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:50:53,946 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:50:54,053 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 5
+}
+]
+2025-07-17 06:50:54,053 - INFO - Đang xử lý: Thị trường xe điện hai bánh Trung Quốc p...
+2025-07-17 06:50:54,054 - INFO - Đang lấy nội dung từ: https://vnexpress.net/thi-truong-xe-dien-hai-banh-trung-quoc-phat-trien-ra-sao-4914830.html
+2025-07-17 06:51:01,025 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:51:01,026 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:51:02,666 - INFO - Đang xử lý: Hơn 5,2 tỷ USD kiều hối về TP HCM nửa đầ...
+2025-07-17 06:51:02,666 - INFO - Đang lấy nội dung từ: https://vnexpress.net/hon-5-2-ty-usd-kieu-hoi-ve-tp-hcm-nua-dau-nam-4915242.html
+2025-07-17 06:51:12,464 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:51:12,464 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:51:13,712 - INFO - Đang xử lý: Thách thức đằng sau mức tăng trưởng vượt...
+2025-07-17 06:51:13,713 - INFO - Đang lấy nội dung từ: https://vnexpress.net/thach-thuc-dang-sau-muc-tang-truong-vuot-du-bao-cua-trung-quoc-4915147.html
+2025-07-17 06:51:24,056 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:51:24,058 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:51:24,162 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 35
+}
+]
+2025-07-17 06:51:24,163 - INFO - Đang xử lý: Làm giả nước tẩy rửa, doanh nghiệp bị ph...
+2025-07-17 06:51:24,163 - INFO - Đang lấy nội dung từ: https://vnexpress.net/lam-gia-nuoc-tay-rua-doanh-nghiep-bi-phat-180-trieu-dong-4915320.html
+2025-07-17 06:51:34,536 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:51:34,537 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:51:34,633 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 25
+}
+]
+2025-07-17 06:51:34,634 - INFO - Đang xử lý: Chủ sở hữu Vodka Hà Nội báo lỗ trở lại...
+2025-07-17 06:51:34,634 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chu-so-huu-vodka-ha-noi-bao-lo-tro-lai-4914764.html
+2025-07-17 06:51:49,378 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:51:49,379 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:51:49,485 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 10
+}
+]
+2025-07-17 06:51:49,486 - INFO - Đang xử lý: MSB công bố khung tài chính bền vững...
+2025-07-17 06:51:49,486 - INFO - Đang lấy nội dung từ: https://vnexpress.net/msb-cong-bo-khung-tai-chinh-ben-vung-4915297.html
+2025-07-17 06:52:00,416 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:52:00,417 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:52:00,514 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+]
+2025-07-17 06:52:00,514 - INFO - Đang xử lý: Tổng giám đốc Vietnam Airlines: 'Nhiều c...
+2025-07-17 06:52:00,514 - INFO - Đang lấy nội dung từ: https://vnexpress.net/tong-giam-doc-vietnam-airlines-nhieu-chi-so-se-vuot-ke-hoach-4915110.html
+2025-07-17 06:52:14,439 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:52:14,440 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:52:14,583 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 45
+}
+]
+2025-07-17 06:52:14,583 - INFO - Đang xử lý: Gelex Electric lãi hơn 1.300 tỷ đồng nửa...
+2025-07-17 06:52:14,583 - INFO - Đang lấy nội dung từ: https://vnexpress.net/gelex-electric-lai-hon-1-300-ty-dong-nua-dau-nam-4915291.html
+2025-07-17 06:52:22,968 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:52:22,969 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:52:23,056 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 36
+}
+]
+2025-07-17 06:52:23,057 - INFO - Đang xử lý: WinCommerce đạt doanh thu gần 18.000 tỷ ...
+2025-07-17 06:52:23,057 - INFO - Đang lấy nội dung từ: https://vnexpress.net/wincommerce-dat-doanh-thu-gan-18-000-ty-trong-nua-dau-nam-4915299.html
+2025-07-17 06:52:32,676 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:52:32,677 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:52:32,827 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 27
+}
+]
+2025-07-17 06:52:32,827 - INFO - Đang xử lý: Chiến lược đầu tư của quỹ DCDS...
+2025-07-17 06:52:32,827 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chien-luoc-dau-tu-cua-quy-dcds-4915177.html
+2025-07-17 06:52:43,223 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:52:43,224 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:52:43,321 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 16
+}
+]
+2025-07-17 06:52:43,321 - INFO - Đang xử lý: Chuyên gia Nasdaq đồng hành Meey Group t...
+2025-07-17 06:52:43,321 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chuyen-gia-nasdaq-dong-hanh-meey-group-trong-hanh-trinh-ipo-4915049.html
+2025-07-17 06:52:51,983 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:52:51,984 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:52:52,129 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 7
+}
+]
+2025-07-17 06:52:52,129 - INFO - Đang xử lý: Doanh nghiệp Trung Quốc muốn phát triển ...
+2025-07-17 06:52:52,129 - INFO - Đang lấy nội dung từ: https://vnexpress.net/doanh-nghiep-trung-quoc-muon-phat-trien-do-thi-thong-minh-tai-viet-nam-4915201.html
+2025-07-17 06:52:58,972 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:52:58,973 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:52:59,066 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+}
+]
+2025-07-17 06:52:59,067 - INFO - Đang xử lý: 'Các ngân hàng đầu tư lớn cho công nghệ ...
+2025-07-17 06:52:59,067 - INFO - Đang lấy nội dung từ: https://vnexpress.net/cac-ngan-hang-dau-tu-lon-cho-cong-nghe-nhung-thieu-nguoi-van-hanh-4915143.html
+2025-07-17 06:53:08,739 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:53:08,740 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:53:08,827 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 51
+}
+]
+2025-07-17 06:53:08,827 - INFO - Đang xử lý: Chứng khoán tăng vọt...
+2025-07-17 06:53:08,827 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chung-khoan-tang-vot-4915091.html
+2025-07-17 06:53:20,323 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:53:20,324 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:53:20,432 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 39
+}
+]
+2025-07-17 06:53:20,432 - INFO - Đang xử lý: Hòa Phát lãi quý II cao nhất 3 năm...
+2025-07-17 06:53:20,432 - INFO - Đang lấy nội dung từ: https://vnexpress.net/hoa-phat-lai-quy-ii-cao-nhat-3-nam-4914986.html
+2025-07-17 06:53:31,744 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:53:31,746 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:53:31,847 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 28
+}
+]
+2025-07-17 06:53:31,847 - INFO - Đang xử lý: CEO Binance: Người trẻ Việt Nam sẽ thích...
+2025-07-17 06:53:31,847 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ceo-binance-den-viet-nam-nguoi-tre-se-thich-tien-so-hon-chung-khoan-4914740.html
+2025-07-17 06:53:46,832 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:53:46,834 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:53:46,932 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 13
+}
+]
+2025-07-17 06:53:46,932 - INFO - Đang xử lý: Thủ tướng: Phấn đấu tăng trưởng kinh tế ...
+2025-07-17 06:53:46,932 - INFO - Đang lấy nội dung từ: https://vnexpress.net/thu-tuong-phan-dau-tang-truong-kinh-te-nam-nay-8-3-8-5-4914959.html
+2025-07-17 06:56:07,230 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:56:07,232 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:56:07,392 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 52
+}
+]
+2025-07-17 06:56:07,392 - INFO - Đang xử lý: Ông Trump nói đối tác nhỏ sẽ chịu thuế '...
+2025-07-17 06:56:07,392 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ong-trump-noi-doi-tac-nho-se-chiu-thue-tren-10-mot-chut-4914916.html
+2025-07-17 06:56:16,457 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:56:16,458 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:56:16,585 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 43
+}
+]
+2025-07-17 06:56:16,585 - INFO - Đang xử lý: Ví điện tử, ngân hàng có thể không được ...
+2025-07-17 06:56:16,585 - INFO - Đang lấy nội dung từ: https://vnexpress.net/vi-dien-tu-ngan-hang-co-the-khong-duoc-de-nghen-giao-dich-qua-30-phut-4914794.html
+2025-07-17 06:56:25,681 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:56:25,682 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:56:25,772 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 34
+}
+]
+2025-07-17 06:56:25,772 - INFO - Đang xử lý: VinSpeed tăng vốn lên 15.000 tỷ đồng...
+2025-07-17 06:56:25,772 - INFO - Đang lấy nội dung từ: https://vnexpress.net/vinspeed-tang-von-len-15-000-ty-dong-4914918.html
+2025-07-17 06:56:36,802 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:56:36,803 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:56:36,904 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 23
+}
+]
+2025-07-17 06:56:36,904 - INFO - Đang xử lý: Chuyển phần vốn Nhà nước tại FPT Telecom...
+2025-07-17 06:56:36,904 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chuyen-phan-von-nha-nuoc-tai-fpt-telecom-ve-bo-cong-an-4914816.html
+2025-07-17 06:56:45,737 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:56:45,738 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:56:45,819 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 14
+}
+]
+2025-07-17 06:56:45,819 - INFO - Đang xử lý: 30 năm kinh doanh của doanh nghiệp Việt ...
+2025-07-17 06:56:45,819 - INFO - Đang lấy nội dung từ: https://vnexpress.net/30-nam-kinh-doanh-cua-doanh-nghiep-viet-my-4913730.html
+2025-07-17 06:56:53,878 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:56:53,879 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:56:54,025 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 6
+}
+]
+2025-07-17 06:56:54,025 - INFO - Đang xử lý: Chủ tịch nước: Cạnh tranh là cần thiết n...
+2025-07-17 06:56:54,025 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chu-tich-nuoc-canh-tranh-la-can-thiet-nhung-hop-tac-de-cung-thang-4914927.html
+2025-07-17 06:57:02,945 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:57:02,946 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:57:03,045 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 56
+}
+]
+2025-07-17 06:57:03,045 - INFO - Đang xử lý: Ông Trump công bố thỏa thuận thương mại ...
+2025-07-17 06:57:03,045 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ong-trump-cong-bo-thoa-thuan-thuong-mai-voi-indonesia-4914788.html
+2025-07-17 06:57:19,396 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:57:19,397 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:57:19,490 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 40
+}
+]
+2025-07-17 06:57:19,490 - INFO - Đang xử lý: Lý do Fed khó giảm lãi về 1% như ông Tru...
+2025-07-17 06:57:19,490 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ly-do-fed-kho-giam-lai-ve-1-nhu-ong-trump-muon-4914568.html
+2025-07-17 06:59:40,875 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:59:40,876 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:59:41,057 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 18
+}
+]
+2025-07-17 06:59:41,058 - INFO - Đang xử lý: Việt Nam chi gần 4.000 tỷ đồng nhập hạt ...
+2025-07-17 06:59:41,058 - INFO - Đang lấy nội dung từ: https://vnexpress.net/viet-nam-chi-gan-4-000-ty-dong-nhap-hat-de-cuoi-4914574.html
+2025-07-17 06:59:54,882 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 06:59:54,883 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 06:59:55,027 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 4
+}
+]
+2025-07-17 06:59:55,027 - INFO - Đang xử lý: Mức thuế 30% của ông Trump phủ bóng triể...
+2025-07-17 06:59:55,027 - INFO - Đang lấy nội dung từ: https://vnexpress.net/muc-thue-30-cua-ong-trump-phu-bong-trien-vong-kinh-te-eu-4914673.html
+2025-07-17 07:00:08,587 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:00:08,589 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:00:11,535 - INFO - Đang xử lý: Vicem Hà Tiên đạt chứng nhận quốc tế về ...
+2025-07-17 07:00:11,535 - INFO - Đang lấy nội dung từ: https://vnexpress.net/vicem-ha-tien-dat-chung-nhan-quoc-te-ve-moi-truong-4915204.html
+2025-07-17 07:00:24,862 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:00:24,862 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:00:26,675 - INFO - Đang xử lý: 9 chính sách mới hỗ trợ doanh nghiệp mở ...
+2025-07-17 07:00:26,675 - INFO - Đang lấy nội dung từ: https://vnexpress.net/9-chinh-sach-moi-ho-tro-doanh-nghiep-mo-rong-quy-mo-4915119.html
+2025-07-17 07:00:33,339 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:00:33,340 - WARNING - [CẢNH BÁO] Nội dung quá ngắn (37 ký tự)
+2025-07-17 07:00:33,340 - WARNING - -> Không trích xuất được nội dung.
+2025-07-17 07:00:33,340 - INFO - Đang xử lý: ShopeeFood thêm tính năng cho người dùng...
+2025-07-17 07:00:33,340 - INFO - Đang lấy nội dung từ: https://vnexpress.net/shopeefood-them-tinh-nang-cho-nguoi-dung-tao-don-bay-cho-doi-tac-4915002.html
+2025-07-17 07:00:43,337 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:00:43,339 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:00:45,773 - INFO - Đang xử lý: Masan vào Top 50 doanh nghiệp phát triển...
+2025-07-17 07:00:45,773 - INFO - Đang lấy nội dung từ: https://vnexpress.net/masan-vao-top-50-doanh-nghiep-phat-trien-ben-vung-tieu-bieu-4915006.html
+2025-07-17 07:00:58,649 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:00:58,650 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:01:00,877 - INFO - Đang xử lý: Home Credit triển khai loạt ưu đãi tài c...
+2025-07-17 07:01:00,877 - INFO - Đang lấy nội dung từ: https://vnexpress.net/home-credit-trien-khai-loat-uu-dai-tai-chinh-mua-tuu-truong-4914931.html
+2025-07-17 07:01:11,825 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:01:11,826 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:01:14,901 - INFO - Đang xử lý: PNJ nhận cú đúp tại Top 50 CSA...
+2025-07-17 07:01:14,901 - INFO - Đang lấy nội dung từ: https://vnexpress.net/pnj-nhan-cu-dup-tai-top-50-csa-4914907.html
+2025-07-17 07:01:28,762 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:01:28,763 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:01:35,317 - INFO - Đang xử lý: 247Express ra mắt bộ nhận diện thương hi...
+2025-07-17 07:01:35,318 - INFO - Đang lấy nội dung từ: https://vnexpress.net/247express-ra-mat-bo-nhan-dien-thuong-hieu-ky-niem-20-nam-4913990.html
+2025-07-17 07:01:59,664 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:01:59,665 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:02:03,929 - INFO - Đang xử lý: TikiNow bị phạt 200 triệu đồng vì cạnh t...
+2025-07-17 07:02:03,929 - INFO - Đang lấy nội dung từ: https://vnexpress.net/tikinow-bi-phat-200-trieu-dong-vi-canh-tranh-khong-lanh-manh-4914756.html
+2025-07-17 07:02:18,315 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:02:18,316 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:02:19,461 - INFO - Đang xử lý: Hai khách hàng không đeo mặt nạ nhận giả...
+2025-07-17 07:02:19,462 - INFO - Đang lấy nội dung từ: https://vnexpress.net/hai-khach-hang-khong-deo-mat-na-nhan-giai-vietlott-hon-chuc-ty-dong-4914729.html
+2025-07-17 07:02:34,284 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:02:34,285 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:02:35,768 - INFO - Đang xử lý: 'Hải Phòng đang trở thành trung tâm logi...
+2025-07-17 07:02:35,768 - INFO - Đang lấy nội dung từ: https://vnexpress.net/hai-phong-dang-tro-thanh-trung-tam-logistics-trong-diem-ca-nuoc-4914696.html
+2025-07-17 07:02:50,656 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:02:50,658 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:02:53,557 - INFO - Đang xử lý: 'Cần giúp người dân tự tin mua tiền số n...
+2025-07-17 07:02:53,557 - INFO - Đang lấy nội dung từ: https://vnexpress.net/can-giup-nguoi-dan-tu-tin-mua-tien-so-nhu-mua-vang-4914613.html
+2025-07-17 07:03:06,468 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:03:06,469 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:03:08,743 - INFO - Đang xử lý: Cửa hàng bán sản phẩm giả Gucci, Chanel ...
+2025-07-17 07:03:08,743 - INFO - Đang lấy nội dung từ: https://vnexpress.net/cua-hang-ban-san-pham-gia-gucci-chanel-bi-phat-hon-100-trieu-dong-4914601.html
+2025-07-17 07:03:21,477 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:03:21,478 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:03:22,931 - INFO - Đang xử lý: Chứng khoán đảo chiều giảm mạnh...
+2025-07-17 07:03:22,931 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chung-khoan-dao-chieu-giam-manh-4914592.html
+2025-07-17 07:03:35,406 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:03:35,406 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:03:36,968 - INFO - Đang xử lý: Hoa Sen lãi vượt kế hoạch gần 30%...
+2025-07-17 07:03:36,968 - INFO - Đang lấy nội dung từ: https://vnexpress.net/hoa-sen-lai-vuot-ke-hoach-gan-30-4914479.html
+2025-07-17 07:03:47,800 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:03:47,800 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:03:49,418 - INFO - Đang xử lý: Nam Ninh - từ thành phố xe máy đến thủ p...
+2025-07-17 07:03:49,418 - INFO - Đang lấy nội dung từ: https://vnexpress.net/nam-ninh-tu-thanh-pho-xe-may-den-thu-phu-xe-dien-hai-banh-trung-quoc-4914157.html
+2025-07-17 07:03:56,502 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:03:56,502 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:03:59,719 - INFO - Đang xử lý: Kinh tế Trung Quốc tăng trưởng vượt dự b...
+2025-07-17 07:03:59,719 - INFO - Đang lấy nội dung từ: https://vnexpress.net/kinh-te-trung-quoc-tang-truong-vuot-du-bao-4914404.html
+2025-07-17 07:04:14,121 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:04:14,122 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:04:15,524 - INFO - Đang xử lý: Nửa triệu đồng một kg mận vàng hoàng đế ...
+2025-07-17 07:04:15,524 - INFO - Đang lấy nội dung từ: https://vnexpress.net/nua-trieu-dong-mot-kg-man-vang-hoang-de-trung-quoc-4912498.html
+2025-07-17 07:04:32,658 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:04:32,659 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:04:35,448 - INFO - Đang xử lý: Chủ dự án Vinhomes Global Gate thay tổng...
+2025-07-17 07:04:35,448 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chu-du-an-vinhomes-global-gate-thay-tong-giam-doc-4914681.html
+2025-07-17 07:04:50,362 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:04:50,363 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:04:52,202 - INFO - Đang xử lý: Công ty chứng khoán của Techcombank lãi ...
+2025-07-17 07:04:52,202 - INFO - Đang lấy nội dung từ: https://vnexpress.net/cong-ty-chung-khoan-cua-techcombank-lai-ky-luc-4914493.html
+2025-07-17 07:05:06,542 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:05:06,544 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:05:08,275 - INFO - Đang xử lý: Greenwashing và những trò tẩy xanh của d...
+2025-07-17 07:05:08,275 - INFO - Đang lấy nội dung từ: https://vnexpress.net/greenwashing-va-nhung-tro-tay-xanh-cua-doanh-nghiep-4908941.html
+2025-07-17 07:05:16,445 - INFO - [THÀNH CÔNG] Sử dụng selector: div.fck_detail
+2025-07-17 07:05:16,446 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:05:17,846 - INFO - Đang xử lý: 'Trung tâm tài chính là kênh dẫn vốn tốt...
+2025-07-17 07:05:17,846 - INFO - Đang lấy nội dung từ: https://vnexpress.net/trung-tam-tai-chinh-la-kenh-dan-von-tot-cho-tp-hcm-sau-sap-nhap-4914239.html
+2025-07-17 07:05:32,290 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:05:32,291 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:05:33,819 - INFO - Đang xử lý: Wilmar Marketing CLV mở rộng thị trường ...
+2025-07-17 07:05:33,819 - INFO - Đang lấy nội dung từ: https://vnexpress.net/wilmar-marketing-clv-mo-rong-thi-truong-duyen-hai-mien-trung-tay-nguyen-4914521.html
+2025-07-17 07:05:48,700 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:05:48,701 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:05:50,371 - INFO - Đang xử lý: Manulife hợp tác đào tạo nâng cao kiến t...
+2025-07-17 07:05:50,371 - INFO - Đang lấy nội dung từ: https://vnexpress.net/manulife-hop-tac-dao-tao-nang-cao-kien-thuc-y-te-cho-tu-van-vien-4914415.html
+2025-07-17 07:06:05,197 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:06:05,198 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:06:06,430 - INFO - Đang xử lý: Hà Nội hỗ trợ tối đa 300 triệu đồng mỗi ...
+2025-07-17 07:06:06,430 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ha-noi-ho-tro-toi-da-300-trieu-dong-moi-nam-cho-doanh-nghiep-sme-4914409.html
+2025-07-17 07:06:17,885 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:06:17,886 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:06:19,431 - INFO - Đang xử lý: Tập đoàn Nhật muốn tăng đầu tư dự án năn...
+2025-07-17 07:06:19,431 - INFO - Đang lấy nội dung từ: https://vnexpress.net/tap-doan-nhat-muon-tang-dau-tu-du-an-nang-luong-tai-viet-nam-4914258.html
+2025-07-17 07:06:34,965 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:06:34,966 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:06:36,592 - INFO - Đang xử lý: Một cổ phiếu bất động sản tăng gấp đôi t...
+2025-07-17 07:06:36,592 - INFO - Đang lấy nội dung từ: https://vnexpress.net/mot-co-phieu-bat-dong-san-tang-gap-doi-trong-hon-nua-thang-4913967.html
+2025-07-17 07:06:50,052 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:06:50,053 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:06:52,141 - INFO - Đang xử lý: Gần 200 con heo nhiễm dịch tả bị tiêu hủ...
+2025-07-17 07:06:52,142 - INFO - Đang lấy nội dung từ: https://vnexpress.net/gan-200-con-heo-nhiem-dich-ta-bi-tieu-huy-tai-phu-tho-4914208.html
+2025-07-17 07:07:07,100 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:07:07,100 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:07:08,384 - INFO - Đang xử lý: VN-Index tăng mạnh 7 phiên liên tiếp...
+2025-07-17 07:07:08,384 - INFO - Đang lấy nội dung từ: https://vnexpress.net/vn-index-tang-manh-7-phien-lien-tiep-4914123.html
+2025-07-17 07:07:22,668 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:07:22,669 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:07:24,000 - INFO - Đang xử lý: Xuất khẩu Trung Quốc vượt dự báo...
+2025-07-17 07:07:24,001 - INFO - Đang lấy nội dung từ: https://vnexpress.net/xuat-khau-trung-quoc-vuot-du-bao-4914071.html
+2025-07-17 07:07:37,905 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:07:37,905 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:07:39,284 - INFO - Đang xử lý: Chứng khoán tuần này ra sao?...
+2025-07-17 07:07:39,284 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chung-khoan-tuan-nay-ra-sao-4913682.html
+2025-07-17 07:07:55,309 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:07:55,310 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:07:56,938 - INFO - Đang xử lý: Bitcoin lập kỷ lục hơn 120.000 USD...
+2025-07-17 07:07:56,938 - INFO - Đang lấy nội dung từ: https://vnexpress.net/gia-bitcoin-hom-nay-btc-vuot-ky-luc-hon-120-000-usd-4913971.html
+2025-07-17 07:08:10,713 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 07:08:10,714 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 07:08:12,275 - INFO - Đã xử lý xong. Chuẩn bị gửi 110 tin nhắn đến Telegram.
+2025-07-17 07:08:12,801 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:08:14,292 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:08:15,785 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 507
+2025-07-17 07:08:17,263 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 592
+2025-07-17 07:08:18,727 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 760
+2025-07-17 07:08:20,206 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:08:21,697 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:08:23,199 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:08:24,680 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 564
+2025-07-17 07:08:26,183 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 415
+2025-07-17 07:08:27,656 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:08:29,172 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:08:30,676 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 550
+2025-07-17 07:08:32,154 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:08:33,619 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:08:35,114 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 543
+2025-07-17 07:08:36,618 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:08:38,132 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 420
+2025-07-17 07:08:39,611 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 469
+2025-07-17 07:08:41,076 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:08:42,568 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 681
+2025-07-17 07:08:44,104 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 418
+2025-07-17 07:08:45,607 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 531
+2025-07-17 07:08:47,086 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 502
+2025-07-17 07:08:48,549 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 575
+2025-07-17 07:08:50,029 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:08:51,520 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:08:53,013 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 577
+2025-07-17 07:08:54,489 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 690
+2025-07-17 07:08:55,970 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 451
+2025-07-17 07:08:57,444 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:08:58,953 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:00,448 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:01,943 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:03,407 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:04,893 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:06,396 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 687
+2025-07-17 07:09:07,910 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '!' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:09,390 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:10,856 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:12,348 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 527
+2025-07-17 07:09:13,877 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:15,408 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 635
+2025-07-17 07:09:16,892 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:18,376 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 350
+2025-07-17 07:09:19,852 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:21,344 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 277
+2025-07-17 07:09:22,842 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:24,320 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 334
+2025-07-17 07:09:25,787 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 567
+2025-07-17 07:09:27,263 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:28,759 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:30,259 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:31,739 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:33,202 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:34,680 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:36,177 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:37,674 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:39,151 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:40,627 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:42,125 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:43,622 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:45,141 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:46,653 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:48,133 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:49,608 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:51,102 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:52,597 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:54,115 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:55,578 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:57,082 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:09:58,578 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:10:00,069 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:10:01,546 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:10:03,009 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:10:04,499 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:10:05,993 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:10:07,492 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:10:08,971 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '{' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:10:10,441 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 556
+2025-07-17 07:10:11,916 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:10:13,415 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 516
+2025-07-17 07:10:14,952 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:10:16,436 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 628
+2025-07-17 07:10:17,899 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:10:19,389 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 737
+2025-07-17 07:10:20,894 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 446
+2025-07-17 07:10:22,416 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 585
+2025-07-17 07:10:23,907 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 556
+2025-07-17 07:10:25,401 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 762
+2025-07-17 07:10:26,937 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 669
+2025-07-17 07:10:28,446 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 450
+2025-07-17 07:10:29,940 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 619
+2025-07-17 07:10:31,445 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:10:32,912 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 498
+2025-07-17 07:10:34,394 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:10:35,892 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:10:37,387 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:10:38,865 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 550
+2025-07-17 07:10:40,347 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 628
+2025-07-17 07:10:41,831 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 565
+2025-07-17 07:10:43,325 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 480
+2025-07-17 07:10:44,819 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:10:46,294 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:10:47,757 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 618
+2025-07-17 07:10:49,239 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 503
+2025-07-17 07:10:50,766 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 435
+2025-07-17 07:10:52,284 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:10:53,779 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '(' is reserved and must be escaped with the preceding '\'
+2025-07-17 07:10:55,265 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Can't find end of Bold entity at byte offset 628
+2025-07-17 07:10:56,269 - INFO - Đang đóng trình duyệt ảo...
+2025-07-17 07:10:56,965 - INFO - Đã đóng trình duyệt.
+2025-07-17 07:10:56,965 - INFO - --- Hoàn tất chu kỳ. ---
