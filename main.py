@@ -8,8 +8,6 @@ Tự động lấy và tóm tắt tin tức từ các nguồn RSS
 import feedparser
 import json
 import os
-from datetime import datetime
-import time
 import logging
 from scraper import NewsScraper
 from selectors import extract_content
@@ -39,8 +37,12 @@ def load_processed_links():
     """Load danh sách links đã xử lý"""
     file_path = 'data/processed_links.json'
     if os.path.exists(file_path):
-        with open(file_path, 'r', encoding='utf-8') as f:
-            return set(json.load(f))
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                return set(json.load(f))
+        except json.JSONDecodeError:
+            logger.warning(f"Lỗi đọc file {file_path}. Bắt đầu với danh sách rỗng.")
+            return set()
     return set()
 
 def save_processed_links(links):
@@ -56,72 +58,74 @@ def process_news():
     # Khởi tạo scraper
     scraper = NewsScraper()
     
-    # Load processed links
-    processed_links = load_processed_links()
-    logger.info(f"Đã tải {len(processed_links)} links đã xử lý.")
-    
-    # Load RSS sources
-    rss_sources = load_rss_sources()
-    
-    logger.info("Đang kiểm tra tin tức từ tất cả các nguồn RSS...")
-    
-    new_articles = []
-    
-    for source_name, rss_url in rss_sources.items():
-        logger.info(f"  -> Đang lấy từ: {source_name}")
+    # Bọc logic chính trong try...finally để đảm bảo scraper được đóng
+    try:
+        # Load processed links
+        processed_links = load_processed_links()
+        logger.info(f"Đã tải {len(processed_links)} links đã xử lý.")
         
-        try:
-            feed = feedparser.parse(rss_url)
-            
-            for entry in feed.entries:
-                if entry.link not in processed_links:
-                    new_articles.append({
-                        'title': entry.title,
-                        'link': entry.link,
-                        'source': source_name,
-                        'published': getattr(entry, 'published', '')
-                    })
-                    
-        except Exception as e:
-            logger.error(f"Không thể lấy từ {source_name}: {e}")
-    
-    if not new_articles:
-        logger.info("Không có bài báo mới.")
-        return
-    
-    logger.info(f"Phát hiện {len(new_articles)} bài báo mới. Bắt đầu xử lý...")
-    
-    successful_articles = []
-    
-    for article in new_articles:
-        # Lấy nội dung
-        response = scraper.get_content_with_retry(article['link'])
+        # Load RSS sources
+        rss_sources = load_rss_sources()
         
-        if response and response.status_code == 200:
-            content = extract_content(response.text, article['link'])
+        logger.info("Đang kiểm tra tin tức từ tất cả các nguồn RSS...")
+        
+        new_articles = []
+        
+        for source_name, rss_url in rss_sources.items():
+            logger.info(f"  -> Đang lấy từ: {source_name}")
             
-            if content:
-                article['content'] = content
-                successful_articles.append(article)
-                processed_links.add(article['link'])
+            try:
+                feed = feedparser.parse(rss_url)
                 
-                logger.info(f"[THÀNH CÔNG] Đã xử lý: {article['title'][:50]}...")
+                for entry in feed.entries:
+                    if entry.link not in processed_links:
+                        new_articles.append({
+                            'title': entry.title,
+                            'link': entry.link,
+                            'source': source_name,
+                            'published': getattr(entry, 'published', '')
+                        })
+                        
+            except Exception as e:
+                logger.error(f"Không thể lấy từ {source_name}: {e}")
+        
+        if not new_articles:
+            logger.info("Không có bài báo mới.")
+            return # Thoát sớm nếu không có gì để làm
+        
+        logger.info(f"Phát hiện {len(new_articles)} bài báo mới. Bắt đầu xử lý...")
+        
+        successful_articles = []
+        
+        for article in new_articles:
+            # Lấy nội dung
+            response = scraper.get_content_with_retry(article['link'])
+            
+            if response and response.status_code == 200:
+                content = extract_content(response.text, article['link'])
+                
+                if content:
+                    article['content'] = content
+                    successful_articles.append(article)
+                    processed_links.add(article['link'])
+                    
+                    logger.info(f"[THÀNH CÔNG] Đã xử lý: {article['title'][:50]}...")
+                else:
+                    logger.warning(f"[THẤT BẠI] Không lấy được nội dung từ trang: {article['title'][:50]}...")
             else:
-                logger.warning(f"[THẤT BẠI] Không lấy được nội dung: {article['title'][:50]}...")
+                logger.warning(f"[THẤT BẠI] Không tải được trang: {article['title'][:50]}...")
+        
+        # Lưu processed links
+        save_processed_links(processed_links)
+        
+        if successful_articles:
+            logger.info(f"\nĐã xử lý thành công {len(successful_articles)} bài báo.")
         else:
-            logger.warning(f"[THẤT BẠI] Không tải được trang: {article['title'][:50]}...")
-    
-    # Lưu processed links
-    save_processed_links(processed_links)
-    
-    if successful_articles:
-        logger.info(f"\nĐã xử lý thành công {len(successful_articles)} bài báo:")
-        for article in successful_articles:
-            logger.info(f"- {article['title']}")
-            logger.info(f"  Nguồn: {article['source']}")
-            logger.info(f"  Độ dài: {len(article['content'])} ký tự")
-    else:
-        logger.warning("Không lấy được nội dung từ các bài báo mới.")
+            logger.warning("Không lấy được nội dung từ bất kỳ bài báo mới nào.")
+
+    finally:
+        # Đảm bảo trình duyệt luôn được đóng sau khi chạy xong
+        scraper.close()
     
     logger.info("--- Hoàn tất chu kỳ. ---")
 
