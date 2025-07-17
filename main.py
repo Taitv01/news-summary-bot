@@ -1,49 +1,57 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import feedparser
-import json
-import os
-import logging
-from scraper import NewsScraper
+# ... các dòng import khác ...
 from content_extractor import extract_content
-from telegram_sender import send_telegram_message  # <-- THÊM DÒNG NÀY
+from telegram_sender import send_telegram_message
+from summarizer import summarize_with_gemini # <-- THÊM DÒNG NÀY
 
-# (Các hàm cấu hình logging, load_rss_sources, ... giữ nguyên)
-# ...
-# ...
+# ... các hàm khác giữ nguyên ...
 
 def process_news():
-    """Xử lý tin tức chính"""
-    logger.info("--- Bot tóm tắt tin tức bắt đầu chạy ---")
-    
-    scraper = NewsScraper()
+    # ... phần đầu hàm giữ nguyên ...
     
     try:
-        # (Phần code lấy tin tức, ... giữ nguyên)
-        # ...
+        # ... logic lấy tin tức giữ nguyên ...
+        
+        for article in successful_articles:
+            # Lấy nội dung
+            response = scraper.get_content_with_retry(article['link'])
+            
+            if response and response.status_code == 200:
+                content = extract_content(response.text, article['link'])
+                
+                if content:
+                    # GỌI GEMINI ĐỂ TÓM TẮT
+                    logger.info(f"Đang tóm tắt bài báo: {article['title'][:30]}...")
+                    summary = summarize_with_gemini(content)
+                    
+                    article['summary'] = summary # Lưu lại nội dung tóm tắt
+                    
+                    successful_articles.append(article)
+                    processed_links.add(article['link'])
+                    logger.info(f"[THÀNH CÔNG] Đã xử lý và tóm tắt: {article['title'][:50]}...")
+                # ...
+        
         # ...
 
         if successful_articles:
-            logger.info(f"\nĐã xử lý thành công {len(successful_articles)} bài báo.")
-            
-            # TẠO TIN NHẮN TÓM TẮT VÀ GỬI ĐẾN TELEGRAM
-            summary_message = f"*📰 Tin tức tổng hợp mới nhất ({len(successful_articles)} tin)*\n\n"
+            # GỬI TIN NHẮN TÓM TẮT NÂNG CAO ĐẾN TELEGRAM
             for article in successful_articles:
-                # Định dạng MarkdownV2 yêu cầu thoát các ký tự đặc biệt
+                # Định dạng MarkdownV2
                 title = article['title'].replace('-', r'\-').replace('.', r'\.').replace('!', r'\!').replace('(', r'\(').replace(')', r'\)')
                 link = article['link'].replace('-', r'\-').replace('.', r'\.')
-                summary_message += f"▪️ [{title}]({link})\n"
-            
-            send_telegram_message(summary_message) # <-- GỌI HÀM GỬI TIN
-            
-        else:
-            logger.warning("Không lấy được nội dung từ bất kỳ bài báo mới nào.")
+                summary_text = article.get('summary', 'Không có tóm tắt').replace('-', r'\-').replace('.', r'\.').replace('!', r'\!').replace('(', r'\(').replace(')', r'\)')
+                
+                message = f"📰 *{title}*\n\n"
+                message += f"{summary_text}\n\n"
+                message += f"[Đọc bài viết đầy đủ]({link})"
+                
+                send_telegram_message(message)
+                time.sleep(1) # Thêm độ trễ 1 giây giữa các tin nhắn
+        # ...
 
     finally:
         scraper.close()
     
-    logger.info("--- Hoàn tất chu kỳ. ---")
-
-if __name__ == "__main__":
-    process_news()
+    # ...
