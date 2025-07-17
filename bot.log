@@ -1462,3 +1462,2419 @@
 2025-07-17 07:10:56,269 - INFO - Đang đóng trình duyệt ảo...
 2025-07-17 07:10:56,965 - INFO - Đã đóng trình duyệt.
 2025-07-17 07:10:56,965 - INFO - --- Hoàn tất chu kỳ. ---
+2025-07-17 09:17:59,670 - INFO - --- Bot tóm tắt tin tức bắt đầu chạy ---
+2025-07-17 09:17:59,671 - INFO - Đang khởi tạo trình duyệt ảo (Selenium)...
+2025-07-17 09:18:06,170 - INFO - Trình duyệt ảo đã sẵn sàng.
+2025-07-17 09:18:06,170 - INFO - Đã tải 0 links đã xử lý.
+2025-07-17 09:18:06,170 - INFO - Đang kiểm tra tin tức từ tất cả các nguồn RSS...
+2025-07-17 09:18:06,170 - INFO - -> Đang lấy từ: VnExpress Mới nhất
+2025-07-17 09:18:07,859 - INFO - -> Đang lấy từ: VnExpress Kinh doanh
+2025-07-17 09:18:09,418 - INFO - -> Đang lấy từ: Vietstock Chứng khoán
+2025-07-17 09:18:10,736 - INFO - -> Đang lấy từ: Lao Động
+2025-07-17 09:18:11,812 - INFO - Phát hiện 111 bài báo mới. Bắt đầu xử lý...
+2025-07-17 09:18:11,812 - INFO - Đang xử lý: Crystal Palace mất suất Europa League vì...
+2025-07-17 09:18:11,812 - INFO - Đang lấy nội dung từ: https://vnexpress.net/crystal-palace-mat-suat-europa-league-vi-khong-doc-mail-tu-uefa-4915567.html
+2025-07-17 09:18:26,539 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:18:26,539 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:18:27,941 - INFO - Đang xử lý: Những 'hiệp sĩ' chống đinh tặc ở thủ đô ...
+2025-07-17 09:18:27,941 - INFO - Đang lấy nội dung từ: https://vnexpress.net/nhung-hiep-si-chong-dinh-tac-o-thu-do-indonesia-4915161.html
+2025-07-17 09:18:36,009 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:18:36,010 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:18:37,305 - INFO - Đang xử lý: Cô gái điên tiết vì nhờ bạn trai giúp đỡ...
+2025-07-17 09:18:37,306 - INFO - Đang lấy nội dung từ: https://vnexpress.net/thu-gian-video-hai-co-gai-dien-tiet-vi-nho-ban-trai-giup-do-nguoi-khac-4915052.html
+2025-07-17 09:21:28,272 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:21:28,273 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:21:30,121 - INFO - Đang xử lý: Cuộc sống bình dị của tài tử Huỳnh Anh T...
+2025-07-17 09:21:30,121 - INFO - Đang lấy nội dung từ: https://vnexpress.net/cuoc-song-binh-di-cua-tai-tu-huynh-anh-tuan-4915461.html
+2025-07-17 09:21:38,479 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:21:38,480 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:21:39,725 - INFO - Đang xử lý: Tài xế chôn chân nhiều giờ để chờ vào ca...
+2025-07-17 09:21:39,725 - INFO - Đang lấy nội dung từ: https://vnexpress.net/tai-xe-chon-chan-nhieu-gio-de-cho-vao-cao-toc-tp-hcm-long-thanh-4915492.html
+2025-07-17 09:21:46,084 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:21:46,084 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:21:48,468 - INFO - Đang xử lý: Tôi muốn buông vì mẹ chồng đa cấp, em ch...
+2025-07-17 09:21:48,468 - INFO - Đang lấy nội dung từ: https://vnexpress.net/da-cap-suc-me-chong-em-chong-chi-dau-toi-muon-buong-vi-me-chong-da-cap-em-chong-ngo-nguoc-chong-lai-vo-tam-4915495.html
+2025-07-17 09:22:06,694 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:22:06,695 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:22:08,411 - INFO - Đang xử lý: AI Awards 2025 mở cổng bình chọn cho 120...
+2025-07-17 09:22:08,411 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ai-awards-2025-mo-cong-binh-chon-cho-120-de-cu-4915241.html
+2025-07-17 09:22:26,781 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:22:26,782 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:22:28,553 - INFO - Đang xử lý: Nguyên Bộ trưởng Y tế Nguyễn Thị Kim Tiế...
+2025-07-17 09:22:28,554 - INFO - Đang lấy nội dung từ: https://vnexpress.net/nguyen-bo-truong-y-te-nguyen-thi-kim-tien-bi-de-nghi-ky-luat-4915522.html
+2025-07-17 09:22:47,063 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:22:47,064 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:22:48,718 - INFO - Đang xử lý: Bộ trưởng Đỗ Đức Duy bị cảnh cáo...
+2025-07-17 09:22:48,718 - INFO - Đang lấy nội dung từ: https://vnexpress.net/bo-truong-do-duc-duy-bi-canh-cao-4915419.html
+2025-07-17 09:25:13,096 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:25:13,097 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:25:17,964 - INFO - Đang xử lý: Chân Tử Đan rong chơi mùa hè...
+2025-07-17 09:25:17,964 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chan-tu-dan-rong-choi-mua-he-4915487.html
+2025-07-17 09:25:24,968 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:25:24,969 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:25:27,576 - INFO - Đang xử lý: Điểm sàn và dự báo điểm chuẩn 2025 của t...
+2025-07-17 09:25:27,576 - INFO - Đang lấy nội dung từ: https://vnexpress.net/diem-san-va-du-bao-diem-chuan-2025-cua-truong-dai-hoc-cmc-4915489.html
+2025-07-17 09:25:35,496 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:25:35,497 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:25:37,034 - INFO - Đang xử lý: Nguy cơ nhiễm liên cầu lợn do ăn tiết ca...
+2025-07-17 09:25:37,034 - INFO - Đang lấy nội dung từ: https://vnexpress.net/nguy-co-nhiem-lien-cau-lon-do-an-tiet-canh-4915478.html
+2025-07-17 09:25:46,130 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:25:46,130 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:25:47,481 - INFO - Đang xử lý: Viêm mũi họng biến chứng viêm tai...
+2025-07-17 09:25:47,481 - INFO - Đang lấy nội dung từ: https://vnexpress.net/viem-mui-hong-bien-chung-viem-tai-4915465.html
+2025-07-17 09:25:55,419 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:25:55,420 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:25:57,267 - INFO - Đang xử lý: Đô thị 100 ha tại cửa ngõ TP HCM hướng đ...
+2025-07-17 09:25:57,267 - INFO - Đang lấy nội dung từ: https://vnexpress.net/do-thi-100-ha-tai-cua-ngo-tp-hcm-huong-den-tieu-chuan-xanh-4915422.html
+2025-07-17 09:26:10,456 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:26:10,457 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:26:12,283 - INFO - Đang xử lý: ​Theo dõi vùng tim để tăng sức bền khi c...
+2025-07-17 09:26:12,283 - INFO - Đang lấy nội dung từ: https://vnexpress.net/theo-doi-vung-tim-de-tang-suc-ben-khi-chay-4915309.html
+2025-07-17 09:26:26,581 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:26:26,582 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:26:28,265 - INFO - Đang xử lý: Tiger Balm hỗ trợ phục hồi cho 11.000 ru...
+2025-07-17 09:26:28,265 - INFO - Đang lấy nội dung từ: https://vnexpress.net/tiger-balm-ho-tro-phuc-hoi-cho-11-000-runner-vm-da-nang-4913926.html
+2025-07-17 09:26:37,442 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:26:37,443 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:26:38,754 - INFO - Đang xử lý: Michelin lần đầu xếp hạng khách sạn toàn...
+2025-07-17 09:26:38,754 - INFO - Đang lấy nội dung từ: https://vnexpress.net/michelin-lan-dau-xep-hang-khach-san-toan-cau-4915459.html
+2025-07-17 09:26:48,231 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:26:48,231 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:26:49,949 - INFO - Đang xử lý: Một loại thuốc trị thiếu máu bị cấm sản ...
+2025-07-17 09:26:49,949 - INFO - Đang lấy nội dung từ: https://vnexpress.net/mot-loai-thuoc-tri-thieu-mau-bi-cam-san-xuat-luu-hanh-4915486.html
+2025-07-17 09:26:59,033 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:26:59,033 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:27:00,579 - INFO - Đang xử lý: Chủ sở hữu Circle K từ bỏ việc mua công ...
+2025-07-17 09:27:00,579 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chu-so-huu-circle-k-tu-bo-viec-mua-cong-ty-me-7-eleven-4915416.html
+2025-07-17 09:27:09,530 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:27:09,531 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:27:10,760 - INFO - Đang xử lý: Ông chủ nhỏ tìm người yêu bé bỏng, thật ...
+2025-07-17 09:27:10,760 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ong-chu-nho-tim-nguoi-yeu-be-bong-that-tha-4915326.html
+2025-07-17 09:27:18,055 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:27:18,056 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:27:18,234 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 41
+}
+]
+2025-07-17 09:27:18,234 - INFO - Đang xử lý: Tạo hình bác Hagrid series 'Harry Potter...
+2025-07-17 09:27:18,234 - INFO - Đang lấy nội dung từ: https://vnexpress.net/tao-hinh-bac-hagrid-series-harry-potter-4915377.html
+2025-07-17 09:27:31,802 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:27:31,804 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:27:31,971 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 28
+}
+]
+2025-07-17 09:27:31,971 - INFO - Đang xử lý: Xác định đối thủ của Indonesia ở vòng lo...
+2025-07-17 09:27:31,972 - INFO - Đang lấy nội dung từ: https://vnexpress.net/xac-dinh-doi-thu-cua-indonesia-o-vong-loai-bon-world-cup-2026-4915496.html
+2025-07-17 09:27:48,163 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:27:48,164 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:27:49,715 - INFO - Đang xử lý: Cháy siêu thị ở Iraq, ít nhất 60 người c...
+2025-07-17 09:27:49,715 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chay-sieu-thi-o-iraq-it-nhat-60-nguoi-chet-4915479.html
+2025-07-17 09:27:57,519 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:27:57,520 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:27:57,686 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 2
+}
+]
+2025-07-17 09:27:57,687 - INFO - Đang xử lý: Cảnh sát Thái Lan sẽ kiểm tra lý lịch nh...
+2025-07-17 09:27:57,687 - INFO - Đang lấy nội dung từ: https://vnexpress.net/canh-sat-thai-lan-se-kiem-tra-ly-lich-nha-su-tren-toan-quoc-4915402.html
+2025-07-17 09:28:06,650 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:28:06,651 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:28:06,818 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 53
+}
+]
+2025-07-17 09:28:06,818 - INFO - Đang xử lý: Giá xăng giảm về dưới 20.000 đồng một lí...
+2025-07-17 09:28:06,818 - INFO - Đang lấy nội dung từ: https://vnexpress.net/gia-xang-moi-nhat-hom-nay-17-7-4915480.html
+2025-07-17 09:28:18,813 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:28:18,813 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:28:18,977 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 41
+}
+]
+2025-07-17 09:28:18,978 - INFO - Đang xử lý: Dubois chạnh lòng trước trận thống nhất ...
+2025-07-17 09:28:18,978 - INFO - Đang lấy nội dung từ: https://vnexpress.net/dubois-chanh-long-truoc-tran-thong-nhat-4-dai-quyen-anh-hang-nang-4915312.html
+2025-07-17 09:28:31,447 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:28:31,449 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:28:34,120 - INFO - Đang xử lý: Dạy con không đòn roi thế nào...
+2025-07-17 09:28:34,120 - INFO - Đang lấy nội dung từ: https://vnexpress.net/day-con-khong-don-roi-the-nao-4911982.html
+2025-07-17 09:28:44,508 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:28:44,509 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:28:44,672 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 15
+}
+]
+2025-07-17 09:28:44,672 - INFO - Đang xử lý: 7 rau củ quả ít đường nên ăn thường xuyê...
+2025-07-17 09:28:44,672 - INFO - Đang lấy nội dung từ: https://vnexpress.net/7-rau-cu-qua-it-duong-nen-an-thuong-xuyen-4915367.html
+2025-07-17 09:28:54,688 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:28:54,688 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:28:54,848 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 5
+}
+]
+2025-07-17 09:28:54,848 - INFO - Đang xử lý: Mitsubishi Destinator - xe gầm cao 7 chỗ...
+2025-07-17 09:28:54,848 - INFO - Đang lấy nội dung từ: https://vnexpress.net/mitsubishi-destinator-xe-gam-cao-7-cho-ra-mat-toan-cau-4915387.html
+2025-07-17 09:29:10,734 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:29:10,735 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:29:10,900 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 49
+}
+]
+2025-07-17 09:29:10,900 - INFO - Đang xử lý: Chỉ 270 bệnh viện 'khai tử' bệnh án giấy...
+2025-07-17 09:29:10,900 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chi-270-benh-vien-khai-tu-benh-an-giay-4915396.html
+2025-07-17 09:29:20,308 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:29:20,310 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:29:20,483 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 39
+}
+]
+2025-07-17 09:29:20,483 - INFO - Đang xử lý: Người Phần Lan chi tiền để được chăn cừu...
+2025-07-17 09:29:20,483 - INFO - Đang lấy nội dung từ: https://vnexpress.net/nguoi-phan-lan-chi-tien-de-duoc-chan-cuu-xa-internet-4915294.html
+2025-07-17 09:29:29,729 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:29:29,730 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:29:29,900 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 30
+}
+]
+2025-07-17 09:29:29,900 - INFO - Đang xử lý: Những số 10 huyền thoại của Barca...
+2025-07-17 09:29:29,900 - INFO - Đang lấy nội dung từ: https://vnexpress.net/nhung-so-10-huyen-thoai-cua-barca-4915488.html
+2025-07-17 09:29:37,255 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:29:37,256 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:29:37,459 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 22
+}
+]
+2025-07-17 09:29:37,459 - INFO - Đang xử lý: Bỗng nhiên gánh nợ vì tòa tuyên nhầm ngư...
+2025-07-17 09:29:37,459 - INFO - Đang lấy nội dung từ: https://vnexpress.net/bong-nhien-ganh-no-vi-toa-tuyen-nham-nguoi-4915453.html
+2025-07-17 09:29:53,589 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:29:53,590 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:29:53,748 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 6
+}
+]
+2025-07-17 09:29:53,748 - INFO - Đang xử lý: 4 bước giải bài toán cấm xe máy chạy xăn...
+2025-07-17 09:29:53,748 - INFO - Đang lấy nội dung từ: https://vnexpress.net/cam-xe-may-ha-noi-cam-xe-may-vanh-dai-1-cam-xe-may-chay-xang-4-buoc-giai-bai-toan-cam-xe-may-chay-xang-trong-vanh-dai-1-ha-noi-4915418.html
+2025-07-17 09:30:02,954 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:30:02,955 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:30:03,140 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 56
+}
+]
+2025-07-17 09:30:03,141 - INFO - Đang xử lý: Vì sao Tây Ban Nha nổi sóng khi Yamal th...
+2025-07-17 09:30:03,141 - INFO - Đang lấy nội dung từ: https://vnexpress.net/vi-sao-tay-ban-nha-noi-song-khi-yamal-thue-nguoi-lun-4915469.html
+2025-07-17 09:30:15,976 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:30:15,978 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:30:16,233 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 43
+}
+]
+2025-07-17 09:30:16,234 - INFO - Đang xử lý: Ông Trump: Coca-Cola đồng ý dùng đường m...
+2025-07-17 09:30:16,234 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ong-trump-coca-cola-dong-y-dung-duong-mia-trong-nuoc-ngot-4915426.html
+2025-07-17 09:30:25,702 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:30:25,703 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:30:25,864 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 34
+}
+]
+2025-07-17 09:30:25,864 - INFO - Đang xử lý: Thủy điện Hòa Bình mở cửa xả đáy thứ 3...
+2025-07-17 09:30:25,864 - INFO - Đang lấy nội dung từ: https://vnexpress.net/thuy-dien-hoa-binh-mo-cua-xa-day-thu-3-4915454.html
+2025-07-17 09:30:45,686 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:30:45,686 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:30:45,849 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 14
+}
+]
+2025-07-17 09:30:45,849 - INFO - Đang xử lý: Tesla hầu tòa vì tai nạn chết người liên...
+2025-07-17 09:30:45,849 - INFO - Đang lấy nội dung từ: https://vnexpress.net/tesla-hau-toa-vi-tai-nan-chet-nguoi-lien-quan-he-thong-tu-lai-4915332.html
+2025-07-17 09:30:57,735 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:30:57,736 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:30:59,236 - INFO - Đang xử lý: Giun sán bò dưới da sau khi ăn gỏi cá...
+2025-07-17 09:30:59,236 - INFO - Đang lấy nội dung từ: https://vnexpress.net/giun-san-bo-duoi-da-sau-khi-an-goi-ca-4915348.html
+2025-07-17 09:31:09,836 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:31:09,836 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:31:10,000 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 50
+}
+]
+2025-07-17 09:31:10,000 - INFO - Đang xử lý: Vì sao du khách đánh lộn, buông thả khi ...
+2025-07-17 09:31:10,000 - INFO - Đang lấy nội dung từ: https://vnexpress.net/vi-sao-du-khach-danh-lon-buong-tha-khi-di-du-lich-4915290.html
+2025-07-17 09:31:20,146 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:31:20,147 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:31:20,351 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 39
+}
+]
+2025-07-17 09:31:20,351 - INFO - Đang xử lý: Trẻ ăn yến mỗi ngày có giúp tăng sức đề ...
+2025-07-17 09:31:20,351 - INFO - Đang lấy nội dung từ: https://vnexpress.net/tre-an-yen-moi-ngay-co-giup-tang-suc-de-khang-4915424.html
+2025-07-17 09:31:27,339 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:31:27,339 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:31:27,505 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 32
+}
+]
+2025-07-17 09:31:27,505 - INFO - Đang xử lý: Tổng cân nặng của ếch, ngựa và cừu là ba...
+2025-07-17 09:31:27,506 - INFO - Đang lấy nội dung từ: https://vnexpress.net/cau-do-iq-thu-tai-suy-luan-tong-can-nang-cua-ech-ngua-va-cuu-la-bao-nhieu-kg-4914534.html
+2025-07-17 09:31:47,838 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:31:47,838 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:31:47,996 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 12
+}
+]
+2025-07-17 09:31:47,997 - INFO - Đang xử lý: Chủ tịch Trầm Hương Khánh Hòa: 'Nhiều cơ...
+2025-07-17 09:31:47,997 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chu-tich-tram-huong-khanh-hoa-nhieu-co-hoi-kien-tao-tuong-lai-4915450.html
+2025-07-17 09:31:58,904 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:31:58,905 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:31:59,062 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+}
+]
+2025-07-17 09:31:59,063 - INFO - Đang xử lý: Bị va trúng khi ngoáy tai, người phụ nữ ...
+2025-07-17 09:31:59,063 - INFO - Đang lấy nội dung từ: https://vnexpress.net/bi-va-trung-khi-ngoay-tai-nguoi-phu-nu-thung-mang-nhi-4915408.html
+2025-07-17 09:32:09,242 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:32:09,243 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:32:09,428 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 50
+}
+]
+2025-07-17 09:32:09,428 - INFO - Đang xử lý: Ba công nghệ chăm sóc da không xâm lấn t...
+2025-07-17 09:32:09,428 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ba-cong-nghe-cham-soc-da-khong-xam-lan-tu-fotona-4914158.html
+2025-07-17 09:32:28,508 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:32:28,509 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:32:28,686 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 31
+}
+]
+2025-07-17 09:32:28,686 - INFO - Đang xử lý: UEFA cấm 10 năm đối với CLB dàn xếp tỷ s...
+2025-07-17 09:32:28,686 - INFO - Đang lấy nội dung từ: https://vnexpress.net/uefa-cam-10-nam-doi-voi-clb-dan-xep-ty-so-4915356.html
+2025-07-17 09:32:43,632 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:32:43,633 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:32:43,780 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 16
+}
+]
+2025-07-17 09:32:43,780 - INFO - Đang xử lý: Trung Quốc vượt Mỹ thành nhà nhập khẩu t...
+2025-07-17 09:32:43,780 - INFO - Đang lấy nội dung từ: https://vnexpress.net/trung-quoc-vuot-my-thanh-nha-nhap-khau-thuy-san-lon-nhat-cua-viet-nam-4915436.html
+2025-07-17 09:32:53,314 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:32:53,315 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:32:53,465 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 6
+}
+]
+2025-07-17 09:32:53,465 - INFO - Đang xử lý: Sống chung với bố mẹ chồng, tiền ăn còn ...
+2025-07-17 09:32:53,466 - INFO - Đang lấy nội dung từ: https://vnexpress.net/nha-chong-no-nan-no-nan-chong-vo-tam-chong-thieu-trach-nhiem-bo-me-chong-no-nan-toi-phai-lam-sao-4915089.html
+2025-07-17 09:35:17,229 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:35:17,230 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:35:17,440 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 42
+}
+]
+2025-07-17 09:35:17,440 - INFO - Đang xử lý: 10 ngón tay cô gái bị bỏng ớt phồng rộp...
+2025-07-17 09:35:17,440 - INFO - Đang lấy nội dung từ: https://vnexpress.net/10-ngon-tay-co-gai-bi-bong-ot-phong-rop-4915432.html
+2025-07-17 09:35:34,770 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:35:34,770 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:35:34,942 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 25
+}
+]
+2025-07-17 09:35:34,942 - INFO - Đang xử lý: Ăn trái cây lúc nào tốt cho tiêu hóa?...
+2025-07-17 09:35:34,942 - INFO - Đang lấy nội dung từ: https://vnexpress.net/an-trai-cay-luc-nao-tot-cho-tieu-hoa-4915414.html
+2025-07-17 09:35:43,301 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:35:43,301 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:35:43,468 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 16
+}
+]
+2025-07-17 09:35:43,468 - INFO - Đang xử lý: Geely Monjaro ra mắt: giá gần 1,2 tỷ đồn...
+2025-07-17 09:35:43,468 - INFO - Đang lấy nội dung từ: https://vnexpress.net/geely-monjaro-ra-mat-gia-gan-1-2-ty-dong-co-dong-co-hybrid-4915236.html
+2025-07-17 09:35:56,491 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:35:56,493 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:35:56,708 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 3
+}
+]
+2025-07-17 09:35:56,709 - INFO - Đang xử lý: Cổ phiếu bất động sản nổi sóng...
+2025-07-17 09:35:56,709 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chung-khoan-hom-nay-17-7-co-phieu-bat-dong-san-noi-song-4915557.html
+2025-07-17 09:36:15,105 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:36:15,106 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:36:15,277 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 44
+}
+]
+2025-07-17 09:36:15,277 - INFO - Đang xử lý: Chủ sở hữu Circle K từ bỏ việc mua công ...
+2025-07-17 09:36:15,277 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chu-so-huu-circle-k-tu-bo-viec-mua-cong-ty-me-7-eleven-4915416.html
+2025-07-17 09:36:28,046 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:36:28,047 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:36:28,206 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 31
+}
+]
+2025-07-17 09:36:28,207 - INFO - Đang xử lý: Giá xăng giảm về dưới 20.000 đồng một lí...
+2025-07-17 09:36:28,207 - INFO - Đang lấy nội dung từ: https://vnexpress.net/gia-xang-moi-nhat-hom-nay-17-7-4915480.html
+2025-07-17 09:36:40,552 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:36:40,553 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:36:40,707 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 19
+}
+]
+2025-07-17 09:36:40,707 - INFO - Đang xử lý: Trung Quốc vượt Mỹ thành nhà nhập khẩu t...
+2025-07-17 09:36:40,707 - INFO - Đang lấy nội dung từ: https://vnexpress.net/trung-quoc-vuot-my-thanh-nha-nhap-khau-thuy-san-lon-nhat-cua-viet-nam-4915436.html
+2025-07-17 09:39:02,219 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:39:02,220 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:39:02,437 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+2025-07-17 09:39:02,437 - INFO - Đang xử lý: Việt Nam thải 156 triệu tấn rơm rạ, bã m...
+2025-07-17 09:39:02,438 - INFO - Đang lấy nội dung từ: https://vnexpress.net/viet-nam-thai-156-trieu-tan-rom-ra-ba-mia-chi-tai-che-duoc-10-35-4915252.html
+2025-07-17 09:39:14,659 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:39:14,660 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:39:14,869 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 45
+}
+]
+2025-07-17 09:39:14,869 - INFO - Đang xử lý: Ông Trump nói 'sẽ rất hoan nghênh' nếu C...
+2025-07-17 09:39:14,869 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ong-trump-noi-se-rat-hoan-nghenh-neu-chu-tich-fed-tu-chuc-4915287.html
+2025-07-17 09:39:24,817 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:39:24,818 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:39:24,988 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 35
+}
+]
+2025-07-17 09:39:24,988 - INFO - Đang xử lý: Thị trường xe điện hai bánh Trung Quốc p...
+2025-07-17 09:39:24,988 - INFO - Đang lấy nội dung từ: https://vnexpress.net/thi-truong-xe-dien-hai-banh-trung-quoc-phat-trien-ra-sao-4914830.html
+2025-07-17 09:39:32,927 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:39:32,929 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:39:33,102 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 26
+}
+]
+2025-07-17 09:39:33,103 - INFO - Đang xử lý: Hơn 5,2 tỷ USD kiều hối về TP HCM nửa đầ...
+2025-07-17 09:39:33,103 - INFO - Đang lấy nội dung từ: https://vnexpress.net/hon-5-2-ty-usd-kieu-hoi-ve-tp-hcm-nua-dau-nam-4915242.html
+2025-07-17 09:39:45,129 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:39:45,130 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:39:45,310 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 14
+}
+]
+2025-07-17 09:39:45,310 - INFO - Đang xử lý: Thách thức đằng sau mức tăng trưởng vượt...
+2025-07-17 09:39:45,310 - INFO - Đang lấy nội dung từ: https://vnexpress.net/thach-thuc-dang-sau-muc-tang-truong-vuot-du-bao-cua-trung-quoc-4915147.html
+2025-07-17 09:39:58,216 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:39:58,217 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:39:58,384 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 1
+}
+]
+2025-07-17 09:39:58,384 - INFO - Đang xử lý: Làm giả nước tẩy rửa, doanh nghiệp bị ph...
+2025-07-17 09:39:58,384 - INFO - Đang lấy nội dung từ: https://vnexpress.net/lam-gia-nuoc-tay-rua-doanh-nghiep-bi-phat-180-trieu-dong-4915320.html
+2025-07-17 09:40:11,767 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:40:11,768 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:40:11,935 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 48
+}
+]
+2025-07-17 09:40:11,935 - INFO - Đang xử lý: Chủ sở hữu Vodka Hà Nội báo lỗ trở lại...
+2025-07-17 09:40:11,936 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chu-so-huu-vodka-ha-noi-bao-lo-tro-lai-4914764.html
+2025-07-17 09:40:27,930 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:40:27,931 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:40:28,116 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 31
+}
+]
+2025-07-17 09:40:28,119 - INFO - Đang xử lý: MSB công bố khung tài chính bền vững...
+2025-07-17 09:40:28,119 - INFO - Đang lấy nội dung từ: https://vnexpress.net/msb-cong-bo-khung-tai-chinh-ben-vung-4915297.html
+2025-07-17 09:40:39,258 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:40:39,259 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:40:39,408 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 20
+}
+]
+2025-07-17 09:40:39,409 - INFO - Đang xử lý: Tổng giám đốc Vietnam Airlines: 'Nhiều c...
+2025-07-17 09:40:39,410 - INFO - Đang lấy nội dung từ: https://vnexpress.net/tong-giam-doc-vietnam-airlines-nhieu-chi-so-se-vuot-ke-hoach-4915110.html
+2025-07-17 09:40:48,445 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:40:48,446 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:40:48,626 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 11
+}
+]
+2025-07-17 09:40:48,626 - INFO - Đang xử lý: Gelex Electric lãi hơn 1.300 tỷ đồng nửa...
+2025-07-17 09:40:48,626 - INFO - Đang lấy nội dung từ: https://vnexpress.net/gelex-electric-lai-hon-1-300-ty-dong-nua-dau-nam-4915291.html
+2025-07-17 09:41:01,679 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:41:01,680 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:41:01,847 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 58
+}
+]
+2025-07-17 09:41:01,847 - INFO - Đang xử lý: WinCommerce đạt doanh thu gần 18.000 tỷ ...
+2025-07-17 09:41:01,847 - INFO - Đang lấy nội dung từ: https://vnexpress.net/wincommerce-dat-doanh-thu-gan-18-000-ty-trong-nua-dau-nam-4915299.html
+2025-07-17 09:41:14,161 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:41:14,162 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:41:14,377 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 45
+}
+]
+2025-07-17 09:41:14,377 - INFO - Đang xử lý: Chiến lược đầu tư của quỹ DCDS...
+2025-07-17 09:41:14,377 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chien-luoc-dau-tu-cua-quy-dcds-4915177.html
+2025-07-17 09:41:27,694 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:41:27,694 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:41:27,861 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 32
+}
+]
+2025-07-17 09:41:27,861 - INFO - Đang xử lý: Chuyên gia Nasdaq đồng hành Meey Group t...
+2025-07-17 09:41:27,861 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chuyen-gia-nasdaq-dong-hanh-meey-group-trong-hanh-trinh-ipo-4915049.html
+2025-07-17 09:41:40,893 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:41:40,893 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:41:41,066 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 18
+}
+]
+2025-07-17 09:41:41,066 - INFO - Đang xử lý: Doanh nghiệp Trung Quốc muốn phát triển ...
+2025-07-17 09:41:41,067 - INFO - Đang lấy nội dung từ: https://vnexpress.net/doanh-nghiep-trung-quoc-muon-phat-trien-do-thi-thong-minh-tai-viet-nam-4915201.html
+2025-07-17 09:41:50,562 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:41:50,563 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:41:50,770 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 9
+}
+]
+2025-07-17 09:41:50,771 - INFO - Đang xử lý: 'Các ngân hàng đầu tư lớn cho công nghệ ...
+2025-07-17 09:41:50,771 - INFO - Đang lấy nội dung từ: https://vnexpress.net/cac-ngan-hang-dau-tu-lon-cho-cong-nghe-nhung-thieu-nguoi-van-hanh-4915143.html
+2025-07-17 09:42:02,834 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:42:02,835 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:42:02,993 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+2025-07-17 09:42:02,993 - INFO - Đang xử lý: Chứng khoán tăng vọt...
+2025-07-17 09:42:02,993 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chung-khoan-tang-vot-4915091.html
+2025-07-17 09:42:18,131 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:42:18,132 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:42:18,307 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 41
+}
+]
+2025-07-17 09:42:18,307 - INFO - Đang xử lý: Hòa Phát lãi quý II cao nhất 3 năm...
+2025-07-17 09:42:18,307 - INFO - Đang lấy nội dung từ: https://vnexpress.net/hoa-phat-lai-quy-ii-cao-nhat-3-nam-4914986.html
+2025-07-17 09:42:33,474 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:42:33,474 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:42:33,636 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 26
+}
+]
+2025-07-17 09:42:33,637 - INFO - Đang xử lý: CEO Binance: Người trẻ Việt Nam sẽ thích...
+2025-07-17 09:42:33,637 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ceo-binance-den-viet-nam-nguoi-tre-se-thich-tien-so-hon-chung-khoan-4914740.html
+2025-07-17 09:42:44,722 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:42:44,723 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:42:44,928 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 15
+}
+]
+2025-07-17 09:42:44,928 - INFO - Đang xử lý: Thủ tướng: Phấn đấu tăng trưởng kinh tế ...
+2025-07-17 09:42:44,929 - INFO - Đang lấy nội dung từ: https://vnexpress.net/thu-tuong-phan-dau-tang-truong-kinh-te-nam-nay-8-3-8-5-4914959.html
+2025-07-17 09:42:59,870 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:42:59,871 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:43:00,048 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 59
+}
+]
+2025-07-17 09:43:00,048 - INFO - Đang xử lý: Ông Trump nói đối tác nhỏ sẽ chịu thuế '...
+2025-07-17 09:43:00,048 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ong-trump-noi-doi-tac-nho-se-chiu-thue-tren-10-mot-chut-4914916.html
+2025-07-17 09:43:13,728 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:43:13,729 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:43:13,894 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 46
+}
+]
+2025-07-17 09:43:13,894 - INFO - Đang xử lý: Ví điện tử, ngân hàng có thể không được ...
+2025-07-17 09:43:13,894 - INFO - Đang lấy nội dung từ: https://vnexpress.net/vi-dien-tu-ngan-hang-co-the-khong-duoc-de-nghen-giao-dich-qua-30-phut-4914794.html
+2025-07-17 09:43:30,616 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:43:30,616 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:43:30,779 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 29
+}
+]
+2025-07-17 09:43:30,779 - INFO - Đang xử lý: VinSpeed tăng vốn lên 15.000 tỷ đồng...
+2025-07-17 09:43:30,779 - INFO - Đang lấy nội dung từ: https://vnexpress.net/vinspeed-tang-von-len-15-000-ty-dong-4914918.html
+2025-07-17 09:43:41,693 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:43:41,694 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:43:41,898 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 18
+}
+]
+2025-07-17 09:43:41,898 - INFO - Đang xử lý: Chuyển phần vốn Nhà nước tại FPT Telecom...
+2025-07-17 09:43:41,898 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chuyen-phan-von-nha-nuoc-tai-fpt-telecom-ve-bo-cong-an-4914816.html
+2025-07-17 09:43:53,373 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:43:53,374 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:43:53,554 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 6
+}
+]
+2025-07-17 09:43:53,554 - INFO - Đang xử lý: 30 năm kinh doanh của doanh nghiệp Việt ...
+2025-07-17 09:43:53,554 - INFO - Đang lấy nội dung từ: https://vnexpress.net/30-nam-kinh-doanh-cua-doanh-nghiep-viet-my-4913730.html
+2025-07-17 09:44:13,114 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:44:13,115 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:44:13,281 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 46
+}
+]
+2025-07-17 09:44:13,281 - INFO - Đang xử lý: Chủ tịch nước: Cạnh tranh là cần thiết n...
+2025-07-17 09:44:13,281 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chu-tich-nuoc-canh-tranh-la-can-thiet-nhung-hop-tac-de-cung-thang-4914927.html
+2025-07-17 09:44:21,936 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:44:21,936 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:44:22,142 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 37
+}
+]
+2025-07-17 09:44:22,145 - INFO - Đang xử lý: Ông Trump công bố thỏa thuận thương mại ...
+2025-07-17 09:44:22,145 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ong-trump-cong-bo-thoa-thuan-thuong-mai-voi-indonesia-4914788.html
+2025-07-17 09:44:33,934 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:44:33,935 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:44:34,114 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 25
+}
+]
+2025-07-17 09:44:34,114 - INFO - Đang xử lý: Lý do Fed khó giảm lãi về 1% như ông Tru...
+2025-07-17 09:44:34,114 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ly-do-fed-kho-giam-lai-ve-1-nhu-ong-trump-muon-4914568.html
+2025-07-17 09:44:43,185 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:44:43,186 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:44:43,358 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 16
+}
+]
+2025-07-17 09:44:43,358 - INFO - Đang xử lý: Việt Nam chi gần 4.000 tỷ đồng nhập hạt ...
+2025-07-17 09:44:43,358 - INFO - Đang lấy nội dung từ: https://vnexpress.net/viet-nam-chi-gan-4-000-ty-dong-nhap-hat-de-cuoi-4914574.html
+2025-07-17 09:44:56,244 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:44:56,245 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:44:56,416 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 3
+}
+]
+2025-07-17 09:44:56,416 - INFO - Đang xử lý: Mức thuế 30% của ông Trump phủ bóng triể...
+2025-07-17 09:44:56,417 - INFO - Đang lấy nội dung từ: https://vnexpress.net/muc-thue-30-cua-ong-trump-phu-bong-trien-vong-kinh-te-eu-4914673.html
+2025-07-17 09:45:05,256 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:45:05,257 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:45:05,391 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 54
+}
+]
+2025-07-17 09:45:05,392 - INFO - Đang xử lý: Vicem Hà Tiên đạt chứng nhận quốc tế về ...
+2025-07-17 09:45:05,392 - INFO - Đang lấy nội dung từ: https://vnexpress.net/vicem-ha-tien-dat-chung-nhan-quoc-te-ve-moi-truong-4915204.html
+2025-07-17 09:45:30,698 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:45:30,699 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:45:30,870 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 29
+}
+]
+2025-07-17 09:45:30,870 - INFO - Đang xử lý: 9 chính sách mới hỗ trợ doanh nghiệp mở ...
+2025-07-17 09:45:30,870 - INFO - Đang lấy nội dung từ: https://vnexpress.net/9-chinh-sach-moi-ho-tro-doanh-nghiep-mo-rong-quy-mo-4915119.html
+2025-07-17 09:47:52,338 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:47:52,338 - WARNING - [CẢNH BÁO] Nội dung quá ngắn (37 ký tự)
+2025-07-17 09:47:52,338 - WARNING - -> Không trích xuất được nội dung.
+2025-07-17 09:47:52,338 - INFO - Đang xử lý: ShopeeFood thêm tính năng cho người dùng...
+2025-07-17 09:47:52,338 - INFO - Đang lấy nội dung từ: https://vnexpress.net/shopeefood-them-tinh-nang-cho-nguoi-dung-tao-don-bay-cho-doi-tac-4915002.html
+2025-07-17 09:48:13,004 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:48:13,005 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:48:13,224 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 46
+}
+]
+2025-07-17 09:48:13,224 - INFO - Đang xử lý: Masan vào Top 50 doanh nghiệp phát triển...
+2025-07-17 09:48:13,224 - INFO - Đang lấy nội dung từ: https://vnexpress.net/masan-vao-top-50-doanh-nghiep-phat-trien-ben-vung-tieu-bieu-4915006.html
+2025-07-17 09:48:23,761 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:48:23,762 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:48:23,969 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 36
+}
+]
+2025-07-17 09:48:23,969 - INFO - Đang xử lý: Home Credit triển khai loạt ưu đãi tài c...
+2025-07-17 09:48:23,969 - INFO - Đang lấy nội dung từ: https://vnexpress.net/home-credit-trien-khai-loat-uu-dai-tai-chinh-mua-tuu-truong-4914931.html
+2025-07-17 09:48:31,642 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:48:31,643 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:48:31,802 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 28
+}
+]
+2025-07-17 09:48:31,802 - INFO - Đang xử lý: PNJ nhận cú đúp tại Top 50 CSA...
+2025-07-17 09:48:31,802 - INFO - Đang lấy nội dung từ: https://vnexpress.net/pnj-nhan-cu-dup-tai-top-50-csa-4914907.html
+2025-07-17 09:48:43,082 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:48:43,083 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:48:43,264 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 16
+}
+]
+2025-07-17 09:48:43,264 - INFO - Đang xử lý: 247Express ra mắt bộ nhận diện thương hi...
+2025-07-17 09:48:43,265 - INFO - Đang lấy nội dung từ: https://vnexpress.net/247express-ra-mat-bo-nhan-dien-thuong-hieu-ky-niem-20-nam-4913990.html
+2025-07-17 09:49:03,928 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:49:03,929 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:49:04,096 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 55
+}
+]
+2025-07-17 09:49:04,096 - INFO - Đang xử lý: TikiNow bị phạt 200 triệu đồng vì cạnh t...
+2025-07-17 09:49:04,096 - INFO - Đang lấy nội dung từ: https://vnexpress.net/tikinow-bi-phat-200-trieu-dong-vi-canh-tranh-khong-lanh-manh-4914756.html
+2025-07-17 09:51:26,614 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:51:26,615 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:51:26,835 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 33
+}
+]
+2025-07-17 09:51:26,835 - INFO - Đang xử lý: Hai khách hàng không đeo mặt nạ nhận giả...
+2025-07-17 09:51:26,836 - INFO - Đang lấy nội dung từ: https://vnexpress.net/hai-khach-hang-khong-deo-mat-na-nhan-giai-vietlott-hon-chuc-ty-dong-4914729.html
+2025-07-17 09:51:40,763 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:51:40,764 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:51:40,930 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 19
+}
+]
+2025-07-17 09:51:40,930 - INFO - Đang xử lý: 'Hải Phòng đang trở thành trung tâm logi...
+2025-07-17 09:51:40,930 - INFO - Đang lấy nội dung từ: https://vnexpress.net/hai-phong-dang-tro-thanh-trung-tam-logistics-trong-diem-ca-nuoc-4914696.html
+2025-07-17 09:51:55,484 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:51:55,485 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:51:55,666 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 4
+}
+]
+2025-07-17 09:51:55,666 - INFO - Đang xử lý: 'Cần giúp người dân tự tin mua tiền số n...
+2025-07-17 09:51:55,666 - INFO - Đang lấy nội dung từ: https://vnexpress.net/can-giup-nguoi-dan-tu-tin-mua-tien-so-nhu-mua-vang-4914613.html
+2025-07-17 09:52:07,983 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:52:07,984 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:52:08,166 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 51
+}
+]
+2025-07-17 09:52:08,166 - INFO - Đang xử lý: Cửa hàng bán sản phẩm giả Gucci, Chanel ...
+2025-07-17 09:52:08,166 - INFO - Đang lấy nội dung từ: https://vnexpress.net/cua-hang-ban-san-pham-gia-gucci-chanel-bi-phat-hon-100-trieu-dong-4914601.html
+2025-07-17 09:52:23,298 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:52:23,299 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:52:23,499 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 36
+}
+]
+2025-07-17 09:52:23,499 - INFO - Đang xử lý: Chứng khoán đảo chiều giảm mạnh...
+2025-07-17 09:52:23,499 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chung-khoan-dao-chieu-giam-manh-4914592.html
+2025-07-17 09:52:34,957 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:52:34,958 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:52:35,126 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 24
+}
+]
+2025-07-17 09:52:35,126 - INFO - Đang xử lý: Hoa Sen lãi vượt kế hoạch gần 30%...
+2025-07-17 09:52:35,126 - INFO - Đang lấy nội dung từ: https://vnexpress.net/hoa-sen-lai-vuot-ke-hoach-gan-30-4914479.html
+2025-07-17 09:52:45,399 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:52:45,400 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:52:45,571 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 14
+}
+]
+2025-07-17 09:52:45,571 - INFO - Đang xử lý: Nam Ninh - từ thành phố xe máy đến thủ p...
+2025-07-17 09:52:45,571 - INFO - Đang lấy nội dung từ: https://vnexpress.net/nam-ninh-tu-thanh-pho-xe-may-den-thu-phu-xe-dien-hai-banh-trung-quoc-4914157.html
+2025-07-17 09:53:04,624 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:53:04,625 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:53:04,794 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 55
+}
+]
+2025-07-17 09:53:04,794 - INFO - Đang xử lý: Kinh tế Trung Quốc tăng trưởng vượt dự b...
+2025-07-17 09:53:04,794 - INFO - Đang lấy nội dung từ: https://vnexpress.net/kinh-te-trung-quoc-tang-truong-vuot-du-bao-4914404.html
+2025-07-17 09:53:18,021 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:53:18,022 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:53:18,193 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 41
+}
+]
+2025-07-17 09:53:18,193 - INFO - Đang xử lý: Nửa triệu đồng một kg mận vàng hoàng đế ...
+2025-07-17 09:53:18,193 - INFO - Đang lấy nội dung từ: https://vnexpress.net/nua-trieu-dong-mot-kg-man-vang-hoang-de-trung-quoc-4912498.html
+2025-07-17 09:53:34,207 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:53:34,208 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:53:34,358 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 25
+}
+]
+2025-07-17 09:53:34,359 - INFO - Đang xử lý: Chủ dự án Vinhomes Global Gate thay tổng...
+2025-07-17 09:53:34,359 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chu-du-an-vinhomes-global-gate-thay-tong-giam-doc-4914681.html
+2025-07-17 09:53:49,634 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:53:49,635 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:53:49,792 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 10
+}
+]
+2025-07-17 09:53:49,792 - INFO - Đang xử lý: Công ty chứng khoán của Techcombank lãi ...
+2025-07-17 09:53:49,792 - INFO - Đang lấy nội dung từ: https://vnexpress.net/cong-ty-chung-khoan-cua-techcombank-lai-ky-luc-4914493.html
+2025-07-17 09:54:03,111 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:54:03,113 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:54:03,291 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 56
+}
+]
+2025-07-17 09:54:03,291 - INFO - Đang xử lý: Greenwashing và những trò tẩy xanh của d...
+2025-07-17 09:54:03,291 - INFO - Đang lấy nội dung từ: https://vnexpress.net/greenwashing-va-nhung-tro-tay-xanh-cua-doanh-nghiep-4908941.html
+2025-07-17 09:56:26,002 - INFO - [THÀNH CÔNG] Sử dụng selector: div.fck_detail
+2025-07-17 09:56:26,002 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:56:26,202 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 33
+}
+]
+2025-07-17 09:56:26,202 - INFO - Đang xử lý: 'Trung tâm tài chính là kênh dẫn vốn tốt...
+2025-07-17 09:56:26,202 - INFO - Đang lấy nội dung từ: https://vnexpress.net/trung-tam-tai-chinh-la-kenh-dan-von-tot-cho-tp-hcm-sau-sap-nhap-4914239.html
+2025-07-17 09:56:40,172 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:56:40,173 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:56:40,396 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 19
+}
+]
+2025-07-17 09:56:40,396 - INFO - Đang xử lý: Wilmar Marketing CLV mở rộng thị trường ...
+2025-07-17 09:56:40,396 - INFO - Đang lấy nội dung từ: https://vnexpress.net/wilmar-marketing-clv-mo-rong-thi-truong-duyen-hai-mien-trung-tay-nguyen-4914521.html
+2025-07-17 09:56:51,785 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:56:51,786 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:56:51,953 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 8
+}
+]
+2025-07-17 09:56:51,953 - INFO - Đang xử lý: Manulife hợp tác đào tạo nâng cao kiến t...
+2025-07-17 09:56:51,953 - INFO - Đang lấy nội dung từ: https://vnexpress.net/manulife-hop-tac-dao-tao-nang-cao-kien-thuc-y-te-cho-tu-van-vien-4914415.html
+2025-07-17 09:57:01,672 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:57:01,673 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:57:01,835 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 58
+}
+]
+2025-07-17 09:57:01,835 - INFO - Đang xử lý: Hà Nội hỗ trợ tối đa 300 triệu đồng mỗi ...
+2025-07-17 09:57:01,835 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ha-noi-ho-tro-toi-da-300-trieu-dong-moi-nam-cho-doanh-nghiep-sme-4914409.html
+2025-07-17 09:57:08,888 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:57:08,889 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:57:09,064 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 50
+}
+]
+2025-07-17 09:57:09,065 - INFO - Đang xử lý: Tập đoàn Nhật muốn tăng đầu tư dự án năn...
+2025-07-17 09:57:09,065 - INFO - Đang lấy nội dung từ: https://vnexpress.net/tap-doan-nhat-muon-tang-dau-tu-du-an-nang-luong-tai-viet-nam-4914258.html
+2025-07-17 09:57:35,724 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:57:35,725 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:57:35,886 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 24
+}
+]
+2025-07-17 09:57:35,886 - INFO - Đang xử lý: Một cổ phiếu bất động sản tăng gấp đôi t...
+2025-07-17 09:57:35,886 - INFO - Đang lấy nội dung từ: https://vnexpress.net/mot-co-phieu-bat-dong-san-tang-gap-doi-trong-hon-nua-thang-4913967.html
+2025-07-17 09:57:50,601 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:57:50,601 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:57:50,780 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 9
+}
+]
+2025-07-17 09:57:50,780 - INFO - Đang xử lý: Gần 200 con heo nhiễm dịch tả bị tiêu hủ...
+2025-07-17 09:57:50,780 - INFO - Đang lấy nội dung từ: https://vnexpress.net/gan-200-con-heo-nhiem-dich-ta-bi-tieu-huy-tai-phu-tho-4914208.html
+2025-07-17 09:58:02,766 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-17 09:58:02,770 - INFO - -> Lấy nội dung thành công, đang gửi đi tóm tắt...
+2025-07-17 09:58:02,942 - ERROR - Lỗi khi gọi Gemini API: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 57
+}
+]
+2025-07-17 09:58:02,942 - INFO - Đã xử lý xong. Chuẩn bị gửi 110 tin nhắn đến Telegram.
+2025-07-17 09:58:03,725 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:05,320 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:06,900 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:08,477 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:10,052 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:11,631 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:13,204 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:14,825 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:16,419 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:18,042 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:19,628 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:21,262 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:22,866 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:24,515 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:26,116 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:27,715 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:29,309 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:30,900 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:32,516 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:34,118 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:35,748 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:37,349 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:38,936 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:40,524 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:42,104 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:43,690 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:45,261 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:46,838 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:48,595 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:50,185 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:51,765 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:53,354 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:54,937 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:56,495 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:58,089 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:58:59,700 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:01,270 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:02,864 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:04,457 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:06,048 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:07,628 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:09,203 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:10,767 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:12,336 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:13,939 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:15,513 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:17,078 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:18,649 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:20,206 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:21,776 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:23,369 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:24,954 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:26,520 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:28,108 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:29,709 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:31,313 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:32,888 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:34,466 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:36,047 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:37,675 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:39,246 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:40,846 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:42,492 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:44,056 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:45,631 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:47,222 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:48,821 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:50,420 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:52,031 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:53,609 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:55,239 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:56,838 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:58,414 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 09:59:59,998 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:01,581 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:03,180 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:04,803 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:06,398 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:07,988 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:09,569 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:11,132 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:12,714 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:14,318 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:16,014 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:17,621 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:19,225 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:20,834 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:22,427 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:24,026 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:25,605 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:27,191 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:28,788 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:30,389 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:31,967 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:33,537 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:35,113 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:36,710 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:38,284 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:39,861 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:41,504 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:43,105 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-17 10:00:44,690 - ERROR - Lỗi khi gửi tin đến Telegram: Too Many Requests: retry after 140
+2025-07-17 10:00:46,280 - ERROR - Lỗi khi gửi tin đến Telegram: Too Many Requests: retry after 138
+2025-07-17 10:00:47,818 - ERROR - Lỗi khi gửi tin đến Telegram: Too Many Requests: retry after 137
+2025-07-17 10:00:49,378 - ERROR - Lỗi khi gửi tin đến Telegram: Too Many Requests: retry after 135
+2025-07-17 10:00:50,936 - ERROR - Lỗi khi gửi tin đến Telegram: Too Many Requests: retry after 134
+2025-07-17 10:00:52,486 - ERROR - Lỗi khi gửi tin đến Telegram: Too Many Requests: retry after 132
+2025-07-17 10:00:54,052 - ERROR - Lỗi khi gửi tin đến Telegram: Too Many Requests: retry after 131
+2025-07-17 10:00:55,601 - ERROR - Lỗi khi gửi tin đến Telegram: Too Many Requests: retry after 129
+2025-07-17 10:00:57,157 - ERROR - Lỗi khi gửi tin đến Telegram: Too Many Requests: retry after 128
+2025-07-17 10:00:58,161 - INFO - Đang đóng trình duyệt ảo...
+2025-07-17 10:00:58,968 - INFO - Đã đóng trình duyệt.
+2025-07-17 10:00:58,968 - INFO - --- Hoàn tất chu kỳ. ---
