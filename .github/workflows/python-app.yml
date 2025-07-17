@@ -9,7 +9,7 @@ jobs:
   run-bot:
     runs-on: ubuntu-latest
 
-    # THÊM KHỐI NÀY ĐỂ CẤP QUYỀN GHI CHO WORKFLOW
+    # Cấp quyền ghi cho workflow để commit và push code
     permissions:
       contents: write
 
@@ -31,6 +31,10 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
     - name: Run script
+      # THÊM KHỐI NÀY ĐỂ TRUYỀN SECRETS VÀO SCRIPT PYTHON
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       run: python main.py
 
     - name: Commit and push data files
