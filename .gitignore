@@ -22,7 +22,6 @@ wheels/
 MANIFEST
 
 # Logs
-*.log
 logs/
 
 # Data files
