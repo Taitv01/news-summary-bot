@@ -85,7 +85,8 @@ def process_news():
         for source_name, rss_url in rss_sources.items():
             logger.info(f"-> Đang lấy từ: {source_name}")
             feed = feedparser.parse(rss_url)
-            for entry in feed.entries:
+            # THAY ĐỔI CHÍNH: Lấy tối đa 10 tin mới nhất từ mỗi nguồn
+            for entry in feed.entries[:10]:
                 if entry.link not in processed_links:
                     new_articles.append({'title': entry.title, 'link': entry.link})
         
@@ -116,14 +117,12 @@ def process_news():
         
         logger.info("Đã nhận tóm tắt từ AI. Chuẩn bị chia và gửi tin nhắn...")
         
-        # Thêm tiêu đề chung cho bản tin
         final_summary_with_header = f"📰 *BẢN TIN TỔNG HỢP HÔM NAY*\n\n{final_summary}"
         escaped_summary = escape_markdown_v2(final_summary_with_header)
         
         message_chunks = split_message(escaped_summary, 4000)
         
         for i, chunk in enumerate(message_chunks):
-            # Nếu có nhiều phần, thêm ghi chú phần
             if len(message_chunks) > 1:
                 chunk_to_send = f"*(Phần {i+1}/{len(message_chunks)})*\n\n{chunk}"
             else:
