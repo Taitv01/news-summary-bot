@@ -5,9 +5,9 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-def summarize_with_gemini(article_text: str) -> str:
+def summarize_with_gemini(combined_articles_text: str) -> str:
     """
-    Sử dụng Gemini API để tóm tắt nội dung một bài báo.
+    Sử dụng Gemini API để tóm tắt một chuỗi lớn chứa nhiều bài báo.
     """
     api_key = os.getenv('GEMINI_API_KEY')
     if not api_key:
@@ -16,22 +16,23 @@ def summarize_with_gemini(article_text: str) -> str:
 
     try:
         genai.configure(api_key=api_key)
-        
-        # Sử dụng model Flash, nhanh và hiệu quả cho việc tóm tắt
         model = genai.GenerativeModel('gemini-1.5-flash-latest')
         
-        prompt = f"""Bạn là một biên tập viên báo chí chuyên nghiệp và giàu kinh nghiệm. Hãy đọc và tóm tắt nội dung bài báo sau đây thành 3 gạch đầu dòng súc tích, dễ hiểu bằng tiếng Việt. Giữ giọng văn trung lập, chỉ tập trung vào các thông tin quan trọng nhất.
+        prompt = f"""Bạn là một biên tập viên báo chí xuất sắc. Dưới đây là nội dung của nhiều bài báo khác nhau, được phân tách bởi '---HẾT BÀI BÁO---'.
+Hãy đọc tất cả và tạo ra một bản tin tổng hợp. Với mỗi bài báo, hãy rút ra tiêu đề và viết một đoạn tóm tắt ngắn gọn khoảng 2-3 câu về nội dung chính.
+Trình bày rõ ràng, chuyên nghiệp.
 
-BÀI BÁO:
+NỘI DUNG CÁC BÀI BÁO:
 ---
-{article_text}
+{combined_articles_text}
 ---
 
-TÓM TẮT:"""
+BẢN TIN TỔNG HỢP:"""
 
         response = model.generate_content(prompt)
         return response.text.strip()
 
     except Exception as e:
         logger.error(f"Lỗi khi gọi Gemini API: {e}")
+        # Trả về lỗi để bot có thể gửi thông báo lỗi này lên Telegram
         return f"Lỗi trong quá trình tóm tắt: {e}"
