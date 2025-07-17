@@ -9,7 +9,6 @@ jobs:
   run-bot:
     runs-on: ubuntu-latest
 
-    # Cấp quyền ghi cho workflow để commit và push code
     permissions:
       contents: write
 
@@ -31,18 +30,27 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
     - name: Run script
-      # Truyền tất cả các secret cần thiết vào script Python
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # <-- ĐÃ THÊM DÒNG NÀY
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       run: python main.py
 
     - name: Commit and push data files
+      # SỬA LẠI BƯỚC NÀY ĐỂ TRỞ NÊN "THÔNG MINH" HƠN
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add data/
+        
+        # Thêm tất cả các thay đổi (nếu có) vào khu vực chờ
+        # Bao gồm cả file bị ignore như bot.log
+        git add -A
         git add -f bot.log
-        git commit -m "Update processed links and log" || echo "No changes to commit"
-        git push || echo "No changes to push"
+        
+        # Chỉ commit và push khi có sự thay đổi
+        if ! git diff-index --quiet HEAD; then
+          git commit -m "Update processed links and log"
+          git push
+        else
+          echo "No changes to commit."
+        fi
