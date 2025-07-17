@@ -8,7 +8,7 @@ import logging
 import time
 from scraper import NewsScraper
 from content_extractor import extract_content
-from telegram_sender import send_telegram_message
+from telegram_sender import send_telegram_message, escape_markdown_v2
 from summarizer import summarize_with_gemini
 
 # Cấu hình logging
@@ -75,8 +75,7 @@ def process_news():
 
         logger.info(f"Phát hiện {len(new_articles)} bài báo mới. Bắt đầu xử lý...")
         
-        # --- VÒNG LẶP 1: THU THẬP VÀ TÓM TẮT ---
-        # Vòng lặp này chỉ để lấy nội dung và tóm tắt, lưu vào một danh sách mới.
+        # VÒNG LẶP 1: THU THẬP VÀ TÓM TẮT
         articles_to_send = []
         for article in new_articles:
             logger.info(f"Đang xử lý: {article['title'][:40]}...")
@@ -89,21 +88,21 @@ def process_news():
                     summary = summarize_with_gemini(content)
                     article['summary'] = summary
                     articles_to_send.append(article)
-                    processed_links.add(article['link']) # Đánh dấu đã xử lý
+                    processed_links.add(article['link'])
                 else:
                     logger.warning("-> Không trích xuất được nội dung.")
             else:
                 logger.warning("-> Không tải được trang.")
 
-        # --- VÒNG LẶP 2: GỬI KẾT QUẢ TỚI TELEGRAM ---
-        # Vòng lặp này chỉ để gửi tin nhắn, giúp quản lý logic dễ dàng hơn.
+        # VÒNG LẶP 2: GỬI KẾT QUẢ TỚI TELEGRAM
         if articles_to_send:
             logger.info(f"Đã xử lý xong. Chuẩn bị gửi {len(articles_to_send)} tin nhắn đến Telegram.")
             for article in articles_to_send:
-                title = article['title'].replace('-', r'\-').replace('.', r'\.').replace('!', r'\!').replace('(', r'\(').replace(')', r'\)')
-                link = article['link'].replace('-', r'\-').replace('.', r'\.')
-                summary_text = article.get('summary', 'Không có tóm tắt').replace('-', r'\-').replace('.', r'\.')
-                
+                # Sử dụng hàm escape chuyên dụng để xử lý các ký tự đặc biệt
+                title = escape_markdown_v2(article['title'])
+                summary_text = escape_markdown_v2(article.get('summary', 'Không có tóm tắt'))
+                link = article['link'] # Link không cần escape
+
                 message = f"📰 *{title}*\n\n{summary_text}\n\n[Đọc bài viết đầy đủ]({link})"
                 send_telegram_message(message)
                 time.sleep(1) # Chờ 1 giây để tránh spam Telegram
