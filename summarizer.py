@@ -16,7 +16,7 @@ def summarize_with_gemini(combined_articles_text: str) -> str:
 
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-1.5-flash-latest')
+        model = genai.GenerativeModel('gemini-2.0-flash')
         
         prompt = f"""Bạn là một biên tập viên báo chí xuất sắc. Dưới đây là nội dung của nhiều bài báo khác nhau, được phân tách bởi '---HẾT BÀI BÁO---'.
 Hãy đọc tất cả và tạo ra một bản tin tổng hợp. Với mỗi bài báo, hãy rút ra tiêu đề và viết một đoạn tóm tắt ngắn gọn khoảng 2-3 câu về nội dung chính.
