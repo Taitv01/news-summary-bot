@@ -10,7 +10,7 @@ import json
 import os
 import logging
 from scraper import NewsScraper
-from selectors import extract_content
+from content_extractor import extract_content
 
 # Cấu hình logging
 logging.basicConfig(
