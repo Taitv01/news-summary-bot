@@ -2,7 +2,8 @@ name: News Summarizer Bot
 
 on:
   schedule:
-    - cron: '0 */4 * * *'
+    # THAY ĐỔI CHÍNH: Chạy mỗi 2 giờ thay vì 4 giờ
+    - cron: '0 */2 * * *'
   workflow_dispatch:
 
 jobs:
@@ -37,17 +38,13 @@ jobs:
       run: python main.py
 
     - name: Commit and push data files
-      # SỬA LẠI BƯỚC NÀY ĐỂ TRỞ NÊN "THÔNG MINH" HƠN
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         
-        # Thêm tất cả các thay đổi (nếu có) vào khu vực chờ
-        # Bao gồm cả file bị ignore như bot.log
         git add -A
         git add -f bot.log
         
-        # Chỉ commit và push khi có sự thay đổi
         if ! git diff-index --quiet HEAD; then
           git commit -m "Update processed links and log"
           git push
