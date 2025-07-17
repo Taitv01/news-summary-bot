@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-News Summarizer Bot
-Tự động lấy và tóm tắt tin tức từ các nguồn RSS
-"""
 
 import feedparser
 import json
@@ -11,120 +7,40 @@ import os
 import logging
 from scraper import NewsScraper
 from content_extractor import extract_content
+from telegram_sender import send_telegram_message  # <-- THÊM DÒNG NÀY
 
-# Cấu hình logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler('bot.log', encoding='utf-8'),
-        logging.StreamHandler()
-    ]
-)
-
-logger = logging.getLogger(__name__)
-
-def load_rss_sources():
-    """Load RSS sources từ file config"""
-    return {
-        'VnExpress Mới nhất': 'https://vnexpress.net/rss/tin-moi-nhat.rss',
-        'VnExpress Kinh doanh': 'https://vnexpress.net/rss/kinh-doanh.rss',
-        'Vietstock Chứng khoán': 'https://vietstock.vn/rss/chung-khoan.rss',
-        'Lao Động': 'https://laodong.vn/rss/tin-moi-nhat.rss'
-    }
-
-def load_processed_links():
-    """Load danh sách links đã xử lý"""
-    file_path = 'data/processed_links.json'
-    if os.path.exists(file_path):
-        try:
-            with open(file_path, 'r', encoding='utf-8') as f:
-                return set(json.load(f))
-        except json.JSONDecodeError:
-            logger.warning(f"Lỗi đọc file {file_path}. Bắt đầu với danh sách rỗng.")
-            return set()
-    return set()
-
-def save_processed_links(links):
-    """Lưu danh sách links đã xử lý"""
-    os.makedirs('data', exist_ok=True)
-    with open('data/processed_links.json', 'w', encoding='utf-8') as f:
-        json.dump(list(links), f, ensure_ascii=False, indent=2)
+# (Các hàm cấu hình logging, load_rss_sources, ... giữ nguyên)
+# ...
+# ...
 
 def process_news():
     """Xử lý tin tức chính"""
     logger.info("--- Bot tóm tắt tin tức bắt đầu chạy ---")
     
-    # Khởi tạo scraper
     scraper = NewsScraper()
     
-    # Bọc logic chính trong try...finally để đảm bảo scraper được đóng
     try:
-        # Load processed links
-        processed_links = load_processed_links()
-        logger.info(f"Đã tải {len(processed_links)} links đã xử lý.")
-        
-        # Load RSS sources
-        rss_sources = load_rss_sources()
-        
-        logger.info("Đang kiểm tra tin tức từ tất cả các nguồn RSS...")
-        
-        new_articles = []
-        
-        for source_name, rss_url in rss_sources.items():
-            logger.info(f"  -> Đang lấy từ: {source_name}")
-            
-            try:
-                feed = feedparser.parse(rss_url)
-                
-                for entry in feed.entries:
-                    if entry.link not in processed_links:
-                        new_articles.append({
-                            'title': entry.title,
-                            'link': entry.link,
-                            'source': source_name,
-                            'published': getattr(entry, 'published', '')
-                        })
-                        
-            except Exception as e:
-                logger.error(f"Không thể lấy từ {source_name}: {e}")
-        
-        if not new_articles:
-            logger.info("Không có bài báo mới.")
-            return # Thoát sớm nếu không có gì để làm
-        
-        logger.info(f"Phát hiện {len(new_articles)} bài báo mới. Bắt đầu xử lý...")
-        
-        successful_articles = []
-        
-        for article in new_articles:
-            # Lấy nội dung
-            response = scraper.get_content_with_retry(article['link'])
-            
-            if response and response.status_code == 200:
-                content = extract_content(response.text, article['link'])
-                
-                if content:
-                    article['content'] = content
-                    successful_articles.append(article)
-                    processed_links.add(article['link'])
-                    
-                    logger.info(f"[THÀNH CÔNG] Đã xử lý: {article['title'][:50]}...")
-                else:
-                    logger.warning(f"[THẤT BẠI] Không lấy được nội dung từ trang: {article['title'][:50]}...")
-            else:
-                logger.warning(f"[THẤT BẠI] Không tải được trang: {article['title'][:50]}...")
-        
-        # Lưu processed links
-        save_processed_links(processed_links)
-        
+        # (Phần code lấy tin tức, ... giữ nguyên)
+        # ...
+        # ...
+
         if successful_articles:
             logger.info(f"\nĐã xử lý thành công {len(successful_articles)} bài báo.")
+            
+            # TẠO TIN NHẮN TÓM TẮT VÀ GỬI ĐẾN TELEGRAM
+            summary_message = f"*📰 Tin tức tổng hợp mới nhất ({len(successful_articles)} tin)*\n\n"
+            for article in successful_articles:
+                # Định dạng MarkdownV2 yêu cầu thoát các ký tự đặc biệt
+                title = article['title'].replace('-', r'\-').replace('.', r'\.').replace('!', r'\!').replace('(', r'\(').replace(')', r'\)')
+                link = article['link'].replace('-', r'\-').replace('.', r'\.')
+                summary_message += f"▪️ [{title}]({link})\n"
+            
+            send_telegram_message(summary_message) # <-- GỌI HÀM GỬI TIN
+            
         else:
             logger.warning("Không lấy được nội dung từ bất kỳ bài báo mới nào.")
 
     finally:
-        # Đảm bảo trình duyệt luôn được đóng sau khi chạy xong
         scraper.close()
     
     logger.info("--- Hoàn tất chu kỳ. ---")
