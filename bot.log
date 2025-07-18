@@ -4311,3 +4311,250 @@
 2025-07-18 05:50:59,723 - INFO - Đang đóng trình duyệt ảo...
 2025-07-18 05:50:59,995 - INFO - Đã đóng trình duyệt.
 2025-07-18 05:50:59,996 - INFO - --- Hoàn tất chu kỳ. ---
+2025-07-18 09:29:18,589 - INFO - --- Bot tóm tắt tin tức bắt đầu chạy ---
+2025-07-18 09:29:18,589 - INFO - Đang khởi tạo trình duyệt ảo (Selenium)...
+2025-07-18 09:29:26,582 - INFO - Trình duyệt ảo đã sẵn sàng.
+2025-07-18 09:29:26,583 - INFO - Đang kiểm tra tin tức từ 14 nguồn RSS...
+2025-07-18 09:29:26,583 - INFO - -> Đang lấy từ: VnExpress Mới nhất (lần thử 1)
+2025-07-18 09:29:26,584 - INFO - -> Đang lấy từ: VnExpress Kinh doanh (lần thử 1)
+2025-07-18 09:29:26,585 - INFO - -> Đang lấy từ: VnExpress Thể thao (lần thử 1)
+2025-07-18 09:29:26,587 - INFO - -> Đang lấy từ: Tuổi Trẻ (lần thử 1)
+2025-07-18 09:29:26,587 - INFO - -> Đang lấy từ: Thanh Niên (lần thử 1)
+2025-07-18 09:29:27,883 - INFO - ✅ Lấy thành công 8 bài từ Thanh Niên
+2025-07-18 09:29:27,884 - INFO - -> Đang lấy từ: Zing News (lần thử 1)
+2025-07-18 09:29:27,885 - INFO - ✅ Thanh Niên: 8 bài mới
+2025-07-18 09:29:27,917 - INFO - ✅ Lấy thành công 8 bài từ Tuổi Trẻ
+2025-07-18 09:29:27,917 - INFO - -> Đang lấy từ: Lao Động (lần thử 1)
+2025-07-18 09:29:27,918 - INFO - ✅ Tuổi Trẻ: 8 bài mới
+2025-07-18 09:29:27,962 - INFO - ✅ Lấy thành công 8 bài từ VnExpress Thể thao
+2025-07-18 09:29:27,962 - INFO - -> Đang lấy từ: Pháp luật TP.HCM (lần thử 1)
+2025-07-18 09:29:27,963 - INFO - ✅ VnExpress Thể thao: 8 bài mới
+2025-07-18 09:29:27,999 - INFO - ✅ Lấy thành công 8 bài từ VnExpress Kinh doanh
+2025-07-18 09:29:27,999 - INFO - -> Đang lấy từ: ICTnews (lần thử 1)
+2025-07-18 09:29:28,000 - INFO - ✅ VnExpress Kinh doanh: 8 bài mới
+2025-07-18 09:29:28,028 - INFO - ✅ Lấy thành công 8 bài từ VnExpress Mới nhất
+2025-07-18 09:29:28,028 - INFO - -> Đang lấy từ: BBC Tiếng Việt (lần thử 1)
+2025-07-18 09:29:28,029 - INFO - ✅ VnExpress Mới nhất: 8 bài mới
+2025-07-18 09:29:28,372 - ERROR - ❌ Lỗi tải RSS từ BBC Tiếng Việt: 404 Client Error: Not Found for url: https://www.bbc.com/vietnamese/rss.xml
+2025-07-18 09:29:28,835 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)'))': /rss/home.rss
+2025-07-18 09:29:29,172 - WARNING - ⚠️ Lao Động trả về HTML thay vì RSS
+2025-07-18 09:29:29,373 - INFO - -> Đang lấy từ: BBC Tiếng Việt (lần thử 2)
+2025-07-18 09:29:29,381 - ERROR - ❌ Lỗi tải RSS từ BBC Tiếng Việt: 404 Client Error: Not Found for url: https://www.bbc.com/vietnamese/rss.xml
+2025-07-18 09:29:29,984 - INFO - ✅ Lấy thành công 8 bài từ Pháp luật TP.HCM
+2025-07-18 09:29:29,984 - INFO - -> Đang lấy từ: VOV (lần thử 1)
+2025-07-18 09:29:29,984 - INFO - ✅ Pháp luật TP.HCM: 8 bài mới
+2025-07-18 09:29:30,173 - INFO - -> Đang lấy từ: Lao Động (lần thử 2)
+2025-07-18 09:29:30,207 - ERROR - ❌ Lỗi tải RSS từ Zing News: 404 Client Error: Not Found for url: https://znews.vn/rss/tin-nong.rss
+2025-07-18 09:29:30,418 - WARNING - ⚠️ Lao Động trả về HTML thay vì RSS
+2025-07-18 09:29:31,120 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)'))': /rss/home.rss
+2025-07-18 09:29:31,208 - INFO - -> Đang lấy từ: Zing News (lần thử 2)
+2025-07-18 09:29:31,383 - INFO - -> Đang lấy từ: BBC Tiếng Việt (lần thử 3)
+2025-07-18 09:29:31,389 - ERROR - ❌ Lỗi tải RSS từ BBC Tiếng Việt: 404 Client Error: Not Found for url: https://www.bbc.com/vietnamese/rss.xml
+2025-07-18 09:29:31,389 - INFO - -> Đang lấy từ: Vietnamplus (lần thử 1)
+2025-07-18 09:29:31,389 - WARNING - ⚠️ BBC Tiếng Việt: Không có bài báo
+2025-07-18 09:29:31,711 - ERROR - ❌ Lỗi tải RSS từ Zing News: 404 Client Error: Not Found for url: https://znews.vn/rss/tin-nong.rss
+2025-07-18 09:29:31,856 - ERROR - ❌ Lỗi tải RSS từ VOV: 404 Client Error: Not Found for url: https://vov.vn/rss/tin-moi-nhat.rss
+2025-07-18 09:29:32,420 - INFO - -> Đang lấy từ: Lao Động (lần thử 3)
+2025-07-18 09:29:32,664 - WARNING - ⚠️ Lao Động trả về HTML thay vì RSS
+2025-07-18 09:29:32,665 - INFO - -> Đang lấy từ: Báo Chính phủ (lần thử 1)
+2025-07-18 09:29:32,665 - WARNING - ⚠️ Lao Động: Không có bài báo
+2025-07-18 09:29:32,857 - INFO - -> Đang lấy từ: VOV (lần thử 2)
+2025-07-18 09:29:33,347 - ERROR - ❌ Lỗi tải RSS từ VOV: 404 Client Error: Not Found for url: https://vov.vn/rss/tin-moi-nhat.rss
+2025-07-18 09:29:33,713 - INFO - -> Đang lấy từ: Zing News (lần thử 3)
+2025-07-18 09:29:33,979 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)'))': /rss/home.rss
+2025-07-18 09:29:33,994 - ERROR - ❌ Lỗi tải RSS từ Báo Chính phủ: 404 Client Error: Not Found for url: https://baochinhphu.vn/rss/home.rss
+2025-07-18 09:29:34,214 - ERROR - ❌ Lỗi tải RSS từ Zing News: 404 Client Error: Not Found for url: https://znews.vn/rss/tin-nong.rss
+2025-07-18 09:29:34,215 - INFO - -> Đang lấy từ: Nhân Dân (lần thử 1)
+2025-07-18 09:29:34,216 - WARNING - ⚠️ Zing News: Không có bài báo
+2025-07-18 09:29:34,995 - INFO - -> Đang lấy từ: Báo Chính phủ (lần thử 2)
+2025-07-18 09:29:35,012 - ERROR - ❌ Lỗi tải RSS từ ICTnews: HTTPSConnectionPool(host='ictnews.vn', port=443): Max retries exceeded with url: /rss/home.rss (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))
+2025-07-18 09:29:35,349 - INFO - -> Đang lấy từ: VOV (lần thử 3)
+2025-07-18 09:29:35,749 - ERROR - ❌ Lỗi tải RSS từ VOV: 404 Client Error: Not Found for url: https://vov.vn/rss/tin-moi-nhat.rss
+2025-07-18 09:29:35,749 - WARNING - ⚠️ VOV: Không có bài báo
+2025-07-18 09:29:35,764 - ERROR - ❌ Lỗi tải RSS từ Nhân Dân: 404 Client Error: Not Found for url: https://nhandan.vn/404
+2025-07-18 09:29:36,013 - INFO - -> Đang lấy từ: ICTnews (lần thử 2)
+2025-07-18 09:29:36,214 - ERROR - ❌ Lỗi tải RSS từ Báo Chính phủ: 404 Client Error: Not Found for url: https://baochinhphu.vn/rss/home.rss
+2025-07-18 09:29:36,765 - INFO - -> Đang lấy từ: Nhân Dân (lần thử 2)
+2025-07-18 09:29:37,196 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)'))': /rss/home.rss
+2025-07-18 09:29:37,278 - ERROR - ❌ Lỗi tải RSS từ Nhân Dân: 404 Client Error: Not Found for url: https://nhandan.vn/404
+2025-07-18 09:29:38,216 - INFO - -> Đang lấy từ: Báo Chính phủ (lần thử 3)
+2025-07-18 09:29:39,051 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)'))': /rss/home.rss
+2025-07-18 09:29:39,280 - INFO - -> Đang lấy từ: Nhân Dân (lần thử 3)
+2025-07-18 09:29:39,727 - ERROR - ❌ Lỗi tải RSS từ Báo Chính phủ: 404 Client Error: Not Found for url: https://baochinhphu.vn/rss/home.rss
+2025-07-18 09:29:39,727 - WARNING - ⚠️ Báo Chính phủ: Không có bài báo
+2025-07-18 09:29:39,778 - ERROR - ❌ Lỗi tải RSS từ Nhân Dân: 404 Client Error: Not Found for url: https://nhandan.vn/404
+2025-07-18 09:29:39,778 - WARNING - ⚠️ Nhân Dân: Không có bài báo
+2025-07-18 09:29:40,457 - ERROR - ❌ Lỗi tải RSS từ Vietnamplus: Exceeded 30 redirects.
+2025-07-18 09:29:41,458 - INFO - -> Đang lấy từ: Vietnamplus (lần thử 2)
+2025-07-18 09:29:42,067 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)'))': /rss/home.rss
+2025-07-18 09:29:42,602 - ERROR - ❌ Lỗi tải RSS từ ICTnews: HTTPSConnectionPool(host='ictnews.vn', port=443): Max retries exceeded with url: /rss/home.rss (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))
+2025-07-18 09:29:44,604 - INFO - -> Đang lấy từ: ICTnews (lần thử 3)
+2025-07-18 09:29:45,136 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)'))': /rss/home.rss
+2025-07-18 09:29:47,154 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)'))': /rss/home.rss
+2025-07-18 09:29:49,257 - ERROR - ❌ Lỗi tải RSS từ Vietnamplus: Exceeded 30 redirects.
+2025-07-18 09:29:50,180 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)'))': /rss/home.rss
+2025-07-18 09:29:51,074 - ERROR - ❌ Lỗi tải RSS từ ICTnews: HTTPSConnectionPool(host='ictnews.vn', port=443): Max retries exceeded with url: /rss/home.rss (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)')))
+2025-07-18 09:29:51,074 - WARNING - ⚠️ ICTnews: Không có bài báo
+2025-07-18 09:29:51,259 - INFO - -> Đang lấy từ: Vietnamplus (lần thử 3)
+2025-07-18 09:29:59,132 - ERROR - ❌ Lỗi tải RSS từ Vietnamplus: Exceeded 30 redirects.
+2025-07-18 09:29:59,132 - WARNING - ⚠️ Vietnamplus: Không có bài báo
+2025-07-18 09:29:59,132 - INFO - 📊 Kết quả thu thập RSS:
+2025-07-18 09:29:59,132 - INFO -   ✅ Thành công: 6/14 nguồn (42.9%)
+2025-07-18 09:29:59,132 - INFO -   ❌ Thất bại: 8 nguồn
+2025-07-18 09:29:59,133 - INFO -   📰 Tổng bài báo mới: 48
+2025-07-18 09:29:59,133 - WARNING -   🔸 Nguồn thất bại: BBC Tiếng Việt, Lao Động, Zing News, VOV, Báo Chính phủ, Nhân Dân, ICTnews, Vietnamplus
+2025-07-18 09:29:59,437 - ERROR - Lỗi khi gửi tin đến Telegram: Bad Request: can't parse entities: Character '.' is reserved and must be escaped with the preceding '\'
+2025-07-18 09:29:59,438 - INFO - Bắt đầu thu thập nội dung...
+2025-07-18 09:29:59,438 - INFO - Đang lấy nội dung từ: https://thanhnien.vn/top-7-sua-rua-mat-gia-binh-dan-den-tu-thuong-hieu-duoc-my-pham-toan-cau-185250718162304183.htm
+2025-07-18 09:29:59,439 - INFO - Đang lấy nội dung từ: https://thanhnien.vn/tai-sao-doanh-nghiep-doi-ten-goi-cac-mat-hang-xang-dau-185250718151114312.htm
+2025-07-18 09:30:17,023 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:30:17,169 - INFO - [THÀNH CÔNG] Sử dụng selector: div.content
+2025-07-18 09:30:17,169 - WARNING - [CẢNH BÁO] Nội dung quá ngắn (18 ký tự)
+2025-07-18 09:30:17,170 - INFO - Đang lấy nội dung từ: https://thanhnien.vn/boeing-va-viet-nam-hop-tac-nghien-cuu-nang-cao-nang-luc-quan-ly-khong-luu-185250718151915596.htm
+2025-07-18 09:30:21,936 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:30:22,077 - INFO - [THÀNH CÔNG] Sử dụng selector: div.content
+2025-07-18 09:30:22,077 - WARNING - [CẢNH BÁO] Nội dung quá ngắn (18 ký tự)
+2025-07-18 09:30:22,078 - INFO - Đang lấy nội dung từ: https://thanhnien.vn/dieu-gi-xay-ra-voi-co-the-khi-ban-bo-bua-185250718160933289.htm
+2025-07-18 09:30:29,182 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:30:29,391 - INFO - [THÀNH CÔNG] Sử dụng selector: div.content
+2025-07-18 09:30:29,391 - WARNING - [CẢNH BÁO] Nội dung quá ngắn (18 ký tự)
+2025-07-18 09:30:29,391 - INFO - Đang lấy nội dung từ: https://thanhnien.vn/hoc-sinh-xuat-sac-truong-thpt-chuyen-chon-van-lang-de-hien-thuc-hoa-giac-mo-dh-185250718160823713.htm
+2025-07-18 09:30:35,960 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:30:36,095 - INFO - [THÀNH CÔNG] Sử dụng selector: div.content
+2025-07-18 09:30:36,095 - WARNING - [CẢNH BÁO] Nội dung quá ngắn (18 ký tự)
+2025-07-18 09:30:36,096 - INFO - Đang lấy nội dung từ: https://thanhnien.vn/chu-tich-hdnd-tphcm-vo-van-minh-khao-sat-du-an-hoa-dau-hon-5-ti-usd-185250718154146848.htm
+2025-07-18 09:30:41,391 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:30:41,538 - INFO - [THÀNH CÔNG] Sử dụng selector: div.content
+2025-07-18 09:30:41,538 - WARNING - [CẢNH BÁO] Nội dung quá ngắn (18 ký tự)
+2025-07-18 09:30:41,539 - INFO - Đang lấy nội dung từ: https://thanhnien.vn/khong-biet-tieng-ngai-hoi-van-mua-sam-tu-tin-nho-gemini-live-tren-galaxy-s25-ultra-185250718152917715.htm
+2025-07-18 09:30:46,180 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:30:46,327 - INFO - [THÀNH CÔNG] Sử dụng selector: div.content
+2025-07-18 09:30:46,327 - WARNING - [CẢNH BÁO] Nội dung quá ngắn (18 ký tự)
+2025-07-18 09:30:46,327 - INFO - Đang lấy nội dung từ: https://thanhnien.vn/anh-nguyen-minh-triet-tap-trung-ho-tro-nguoi-dan-185250718151913171.htm
+2025-07-18 09:30:50,456 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:30:50,606 - INFO - [THÀNH CÔNG] Sử dụng selector: div.content
+2025-07-18 09:30:50,606 - WARNING - [CẢNH BÁO] Nội dung quá ngắn (18 ký tự)
+2025-07-18 09:30:50,607 - INFO - Đang lấy nội dung từ: https://tuoitre.vn/nhu-cau-nhan-luc-ban-dan-rat-lon-nhung-dao-tao-tai-viet-nam-van-con-nhieu-thach-thuc-2025071815435558.htm
+2025-07-18 09:31:00,462 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:31:00,620 - INFO - [THÀNH CÔNG] Sử dụng selector: div.content
+2025-07-18 09:31:00,621 - INFO - Đang lấy nội dung từ: https://tuoitre.vn/sieu-nhan-superman-khong-bay-nhay-noi-o-rap-viet-20250718120807198.htm
+2025-07-18 09:31:04,455 - INFO - [THÀNH CÔNG] Sử dụng selector: div.content
+2025-07-18 09:31:04,456 - INFO - Đang lấy nội dung từ: https://tuoitre.vn/doanh-nghiep-nhat-sang-viet-nam-truc-tiep-phong-van-tuyen-dung-sinh-vien-tai-tro-tu-a-den-z-20250718153430135.htm
+2025-07-18 09:31:07,117 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:31:07,297 - INFO - [THÀNH CÔNG] Sử dụng selector: div.content
+2025-07-18 09:31:07,298 - INFO - Đang lấy nội dung từ: https://tuoitre.vn/bao-hiem-xa-hoi-khu-vuc-xxvii-doi-ten-thanh-bao-hiem-xa-hoi-tp-hcm-20250718153846307.htm
+2025-07-18 09:31:10,642 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:31:10,812 - INFO - [THÀNH CÔNG] Sử dụng selector: div.content
+2025-07-18 09:31:10,813 - INFO - Đang lấy nội dung từ: https://tuoitre.vn/dai-hoc-quoc-gia-ha-noi-cong-bo-diem-san-xet-tuyen-19-diem-20250718155627256.htm
+2025-07-18 09:31:13,989 - INFO - [THÀNH CÔNG] Sử dụng selector: div.content
+2025-07-18 09:31:13,989 - INFO - Đang lấy nội dung từ: https://tuoitre.vn/nguoi-dan-thai-lan-dang-gap-van-de-suc-khoe-tam-than-nghiem-trong-2025071814125576.htm
+2025-07-18 09:31:17,024 - INFO - [THÀNH CÔNG] Sử dụng selector: div.content
+2025-07-18 09:31:17,025 - INFO - Đang lấy nội dung từ: https://tuoitre.vn/lap-kinh-cuong-luc-ben-trong-dien-thai-hoa-de-bao-ve-ngai-vang-trieu-nguyen-20250718154904948.htm
+2025-07-18 09:31:19,507 - INFO - [THÀNH CÔNG] Sử dụng selector: div.content
+2025-07-18 09:31:19,508 - INFO - Đang lấy nội dung từ: https://tuoitre.vn/tay-ninh-truy-dieu-an-tang-156-hai-cot-liet-si-hy-sinh-tai-campuchia-20250718152950021.htm
+2025-07-18 09:31:22,793 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:31:22,997 - INFO - [THÀNH CÔNG] Sử dụng selector: div.content
+2025-07-18 09:31:22,998 - INFO - Đang lấy nội dung từ: https://vnexpress.net/vi-sao-pacquiao-tai-xuat-quyen-anh-o-tuoi-46-4915861.html
+2025-07-18 09:33:42,159 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:33:42,412 - INFO - [THÀNH CÔNG] Sử dụng selector: article
+2025-07-18 09:33:42,413 - INFO - Đang lấy nội dung từ: https://vnexpress.net/pique-ngac-nhien-truoc-pha-thi-hau-cua-carlsen-4915867.html
+2025-07-18 09:33:48,877 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:33:49,150 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:33:49,151 - INFO - Đang lấy nội dung từ: https://vnexpress.net/hlv-ha-noi-fc-nhieu-cau-thu-viet-nam-qua-thoa-man-voi-hien-tai-4915957.html
+2025-07-18 09:33:54,132 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:33:54,510 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:33:54,510 - INFO - Đang lấy nội dung từ: https://vnexpress.net/giai-mat-the-thao-chuyen-ve-doi-tuyen-duy-nhat-khong-duoc-fifa-xep-hang-4915908.html
+2025-07-18 09:33:59,247 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:33:59,855 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:33:59,857 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ten-hag-antony-van-la-con-trai-toi-4915734.html
+2025-07-18 09:34:05,513 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:34:05,947 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:34:05,949 - INFO - Đang lấy nội dung từ: https://vnexpress.net/golfer-thai-lan-va-cam-hung-than-thanh-tu-phat-giao-4916029.html
+2025-07-18 09:34:09,873 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:34:10,189 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:34:10,190 - INFO - Đang lấy nội dung từ: https://vnexpress.net/kyrgios-toi-khinh-thuong-nadal-4915792.html
+2025-07-18 09:34:14,473 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:34:14,878 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:34:14,879 - INFO - Đang lấy nội dung từ: https://vnexpress.net/zverev-thoi-cua-big-3-de-hon-sinner-alcaraz-4915744.html
+2025-07-18 09:34:19,164 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:34:19,471 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:34:19,473 - INFO - Đang lấy nội dung từ: https://vnexpress.net/co-phieu-fpt-telecom-tang-manh-sau-khi-bo-cong-an-nhan-chuyen-giao-von-4916025.html
+2025-07-18 09:34:23,613 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:34:24,029 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:34:24,031 - INFO - Đang lấy nội dung từ: https://vnexpress.net/cherry-my-ve-viet-nam-gia-re-ky-luc-4915505.html
+2025-07-18 09:34:28,570 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:34:28,950 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:34:28,952 - INFO - Đang lấy nội dung từ: https://vnexpress.net/xuat-khau-chuoi-chanh-day-ky-vong-dat-ty-usd-4915946.html
+2025-07-18 09:34:34,116 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:34:34,416 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:34:34,417 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chung-khoan-hom-nay-18-7-vn-index-vuot-1-500-diem-4915903.html
+2025-07-18 09:34:38,540 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:34:38,958 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:34:38,963 - INFO - Đang lấy nội dung từ: https://vnexpress.net/nguon-cung-bitcoin-dang-xuong-thap-4915862.html
+2025-07-18 09:36:58,745 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:36:58,975 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:36:58,977 - INFO - Đang lấy nội dung từ: https://vnexpress.net/de-xuat-token-hoa-etf-co-the-mua-bang-bitcoin-4915365.html
+2025-07-18 09:37:03,072 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:37:03,594 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:37:03,600 - INFO - Đang lấy nội dung từ: https://vnexpress.net/song-co-phieu-bat-dong-san-4915555.html
+2025-07-18 09:37:08,006 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:37:08,443 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:37:08,446 - INFO - Đang lấy nội dung từ: https://vnexpress.net/san-giao-dich-carbon-du-kien-van-hanh-thu-nghiem-vao-cuoi-2025-4915882.html
+2025-07-18 09:37:12,928 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:37:13,121 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:37:13,124 - INFO - Đang lấy nội dung từ: https://vnexpress.net/cherry-my-ve-viet-nam-gia-re-ky-luc-4915505.html
+2025-07-18 09:37:18,409 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:37:18,932 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:37:18,940 - INFO - Đang lấy nội dung từ: https://vnexpress.net/5-lan-tai-phat-ung-thu-gan-do-nghien-ruou-4916001.html
+2025-07-18 09:37:19,009 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:37:19,011 - INFO - Đang lấy nội dung từ: https://vnexpress.net/mam-com-dan-da-kieu-bac-bo-trong-ngay-he-4916021.html
+2025-07-18 09:37:24,909 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:37:26,260 - INFO - [THÀNH CÔNG] Sử dụng selector: div.fck_detail
+2025-07-18 09:37:26,260 - INFO - Đang lấy nội dung từ: https://vnexpress.net/nghe-si-robot-ve-vua-charles-iii-4915951.html
+2025-07-18 09:37:29,629 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:37:29,631 - INFO - Đang lấy nội dung từ: https://vnexpress.net/golfer-thai-lan-va-cam-hung-than-thanh-tu-phat-giao-4916029.html
+2025-07-18 09:37:37,861 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:37:38,160 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:37:38,162 - INFO - Đang lấy nội dung từ: https://vnexpress.net/cau-do-iq-thu-tai-suy-luan-chiec-coc-nao-nhan-ca-phe-nong-dau-tien-4915481.html
+2025-07-18 09:37:42,760 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:37:43,072 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:37:43,079 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chu-cong-ty-dia-oc-khai-dung-chim-moi-du-hang-tram-nguoi-mua-du-an-dom-4915963.html
+2025-07-18 09:37:47,077 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:37:47,360 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:37:47,362 - INFO - Đang lấy nội dung từ: https://vnexpress.net/subaru-ra-mat-crossover-thuan-dien-uncharted-4915871.html
+2025-07-18 09:37:52,193 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:37:52,543 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 09:37:52,545 - INFO - Đang lấy nội dung từ: https://plo.vn/ong-tran-duc-thang-duoc-giao-quyen-bo-truong-bo-nong-nghiep-va-moi-truong-post861097.html
+2025-07-18 09:38:11,726 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:38:11,995 - WARNING - [CẢNH BÁO] Không tìm thấy selector phù hợp cho: https://vnexpress.net/subaru-ra-mat-crossover-thuan-dien-uncharted-4915871.html
+2025-07-18 09:38:11,996 - INFO - [FALLBACK] Sử dụng toàn bộ nội dung body
+2025-07-18 09:38:11,998 - INFO - Đang lấy nội dung từ: https://plo.vn/nhieu-nguoi-o-dak-lak-bi-ban-vao-cac-cong-ty-lua-dao-o-campuchia-post861070.html
+2025-07-18 09:38:19,575 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:38:19,825 - INFO - [THÀNH CÔNG] Sử dụng selector: article
+2025-07-18 09:38:19,826 - INFO - Đang lấy nội dung từ: https://plo.vn/fvg-tang-10-can-nha-moi-cho-ho-ngheo-chung-tay-xoa-nha-tam-tai-da-nang-post861086.html
+2025-07-18 09:38:24,920 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:38:25,020 - INFO - [THÀNH CÔNG] Sử dụng selector: article
+2025-07-18 09:38:25,020 - INFO - Đang lấy nội dung từ: https://plo.vn/9-thu-khoa-toan-quoc-dat-diem-tuyet-doi-xet-tuyen-vao-nhung-truong-nao-post861063.html
+2025-07-18 09:38:35,406 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:38:35,568 - INFO - [THÀNH CÔNG] Sử dụng selector: article
+2025-07-18 09:38:35,568 - INFO - Đang lấy nội dung từ: https://plo.vn/bo-y-te-de-xuat-chi-592-ti-dong-de-mien-giam-hoc-phi-nganh-lao-khoa-post861076.html
+2025-07-18 09:38:41,988 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:38:42,276 - INFO - [THÀNH CÔNG] Sử dụng selector: article
+2025-07-18 09:38:42,276 - INFO - Đang lấy nội dung từ: https://plo.vn/bo-ruou-bia-trong-30-ngay-co-the-thay-doi-ra-sao-post861089.html
+2025-07-18 09:38:49,641 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:38:49,752 - INFO - [THÀNH CÔNG] Sử dụng selector: article
+2025-07-18 09:38:49,752 - INFO - Đang lấy nội dung từ: https://plo.vn/chung-khoan-nha-dau-tu-can-chu-y-gi-sau-moc-vnindex-1500-diem-post861085.html
+2025-07-18 09:38:56,394 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:38:56,546 - INFO - [THÀNH CÔNG] Sử dụng selector: article
+2025-07-18 09:38:56,546 - INFO - Đang lấy nội dung từ: https://plo.vn/tphcm-phuong-lai-thieu-de-xuat-pho-giam-doc-trung-tam-duoc-ky-van-ban-post861080.html
+2025-07-18 09:39:02,359 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 09:39:02,471 - INFO - [THÀNH CÔNG] Sử dụng selector: article
+2025-07-18 09:39:05,068 - INFO - [THÀNH CÔNG] Sử dụng selector: article
+2025-07-18 09:39:05,069 - INFO - Đã thu thập thành công 41 bài báo
+2025-07-18 09:39:05,069 - INFO - Đang tạo tóm tắt với AI...
+2025-07-18 09:39:18,731 - INFO - Gửi tin nhắn...
+2025-07-18 09:39:19,389 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-18 09:39:20,881 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-18 09:39:21,890 - INFO - Đang đóng trình duyệt ảo...
+2025-07-18 09:39:22,317 - INFO - Đã đóng trình duyệt.
+2025-07-18 09:39:22,318 - INFO - --- Hoàn tất chu kỳ. ---
