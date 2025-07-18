@@ -53,20 +53,16 @@ def split_message(text: str, limit: int = 4000) -> list[str]:
     """Chia một đoạn văn bản dài thành nhiều phần nhỏ hơn giới hạn."""
     if len(text) <= limit:
         return [text]
-
     parts = []
     while len(text) > 0:
         if len(text) <= limit:
             parts.append(text)
             break
-        
         split_pos = text.rfind('\n', 0, limit)
         if split_pos == -1:
             split_pos = limit
-        
         parts.append(text[:split_pos])
         text = text[split_pos:].lstrip()
-        
     return parts
 
 def process_news():
@@ -76,8 +72,6 @@ def process_news():
     
     try:
         processed_links = load_processed_links()
-        logger.info(f"Đã tải {len(processed_links)} links đã xử lý.")
-        
         rss_sources = load_rss_sources()
         logger.info("Đang kiểm tra tin tức từ tất cả các nguồn RSS...")
         
@@ -85,8 +79,7 @@ def process_news():
         for source_name, rss_url in rss_sources.items():
             logger.info(f"-> Đang lấy từ: {source_name}")
             feed = feedparser.parse(rss_url)
-            # THAY ĐỔI CHÍNH: Lấy tối đa 10 tin mới nhất từ mỗi nguồn
-            for entry in feed.entries[:10]:
+            for entry in feed.entries[:10]: # Giới hạn 10 tin mỗi nguồn
                 if entry.link not in processed_links:
                     new_articles.append({'title': entry.title, 'link': entry.link})
         
@@ -117,18 +110,24 @@ def process_news():
         
         logger.info("Đã nhận tóm tắt từ AI. Chuẩn bị chia và gửi tin nhắn...")
         
-        final_summary_with_header = f"📰 *BẢN TIN TỔNG HỢP HÔM NAY*\n\n{final_summary}"
-        escaped_summary = escape_markdown_v2(final_summary_with_header)
+        # BƯỚC 1: Xử lý ký tự đặc biệt CHỈ cho nội dung do AI tạo ra.
+        escaped_content = escape_markdown_v2(final_summary)
         
-        message_chunks = split_message(escaped_summary, 4000)
+        # BƯỚC 2: Thêm tiêu đề (chứa ký tự Markdown *...*) SAU KHI đã xử lý.
+        full_message_body = f"📰 *BẢN TIN TỔNG HỢP HÔM NAY*\n\n{escaped_content}"
+        
+        # BƯỚC 3: Chia tin nhắn thành các phần nhỏ.
+        message_chunks = split_message(full_message_body, 4000)
         
         for i, chunk in enumerate(message_chunks):
+            message_to_send = chunk
+            # Thêm ghi chú (Phần x/y) nếu có nhiều hơn 1 phần
             if len(message_chunks) > 1:
-                chunk_to_send = f"*(Phần {i+1}/{len(message_chunks)})*\n\n{chunk}"
-            else:
-                chunk_to_send = chunk
-            
-            send_telegram_message(chunk_to_send)
+                # Dùng ký tự escape cho dấu ngoặc đơn
+                note = escape_markdown_v2(f"\n\n(Phần {i+1}/{len(message_chunks)})")
+                message_to_send += note
+
+            send_telegram_message(message_to_send)
             time.sleep(1)
 
     finally:
