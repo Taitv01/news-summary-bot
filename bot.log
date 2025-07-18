@@ -3992,3 +3992,75 @@
 2025-07-17 20:31:17,023 - INFO - Đang đóng trình duyệt ảo...
 2025-07-17 20:31:17,255 - INFO - Đã đóng trình duyệt.
 2025-07-17 20:31:17,255 - INFO - --- Hoàn tất chu kỳ. ---
+2025-07-18 02:13:31,055 - INFO - --- Bot tóm tắt tin tức bắt đầu chạy ---
+2025-07-18 02:13:31,055 - INFO - Đang khởi tạo trình duyệt ảo (Selenium)...
+2025-07-18 02:13:38,375 - INFO - Trình duyệt ảo đã sẵn sàng.
+2025-07-18 02:13:38,375 - INFO - Đang kiểm tra tin tức từ tất cả các nguồn RSS...
+2025-07-18 02:13:38,375 - INFO - -> Đang lấy từ: VnExpress Mới nhất
+2025-07-18 02:13:40,009 - INFO - -> Đang lấy từ: VnExpress Kinh doanh
+2025-07-18 02:13:41,665 - INFO - -> Đang lấy từ: Vietstock Chứng khoán
+2025-07-18 02:13:43,065 - INFO - -> Đang lấy từ: Lao Động
+2025-07-18 02:13:44,388 - INFO - Phát hiện 20 bài báo mới. Bắt đầu thu thập nội dung...
+2025-07-18 02:13:44,389 - INFO - Đang lấy nội dung từ: https://vnexpress.net/cau-do-tieng-viet-do-chu-day-la-chu-gi-tu-tieng-viet-nao-co-4-chu-cai-chu-dau-va-cuoi-giong-nhau-4910047.html
+2025-07-18 02:13:44,389 - INFO - Đang lấy nội dung từ: https://vnexpress.net/don-vi-nghien-cuu-di-dau-ve-chinh-sach-cong-nghe-so-chuyen-doi-so-4915696.html
+2025-07-18 02:13:44,390 - INFO - Đang lấy nội dung từ: https://vnexpress.net/gia-gao-tang-gap-doi-thu-tuong-nhat-doi-mat-them-ap-luc-4915742.html
+2025-07-18 02:13:56,479 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 02:14:00,889 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:14:00,890 - INFO - Đang lấy nội dung từ: https://vnexpress.net/bang-quy-doi-diem-chuan-dai-hoc-bach-khoa-ha-noi-2025-4915745.html
+2025-07-18 02:14:01,642 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:14:01,643 - INFO - Đang lấy nội dung từ: https://vnexpress.net/quy-doi-moi-cong-nghe-danh-gia-hieu-qua-nguon-luc-vao-tang-truong-gdp-4915701.html
+2025-07-18 02:14:11,491 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 02:14:11,588 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 02:14:11,796 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:14:11,802 - INFO - Đang lấy nội dung từ: https://vnexpress.net/cham-con-mot-minh-song-chung-me-chong-chong-khong-lam-viec-nha-chong-bao-thay-bim-cho-con-la-viec-cua-dan-ba-4915088.html
+2025-07-18 02:14:11,887 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:14:11,889 - INFO - Đang lấy nội dung từ: https://vnexpress.net/mong-gap-anh-mot-nua-yeu-thuong-cua-em-4915577.html
+2025-07-18 02:18:54,932 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 02:18:55,093 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 02:18:55,500 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:18:55,507 - INFO - Đang lấy nội dung từ: https://vnexpress.net/cac-dia-danh-du-lich-thay-doi-sau-sap-nhap-4910565.html
+2025-07-18 02:18:55,774 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:18:55,775 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ocb-nhan-giai-chien-luoc-nhan-su-phat-trien-ben-vung-4915752.html
+2025-07-18 02:19:06,642 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 02:19:07,099 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 02:19:07,305 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:19:07,306 - INFO - Đang lấy nội dung từ: https://vnexpress.net/co-can-deo-kinh-chong-anh-sang-xanh-khi-dung-may-tinh-4915683.html
+2025-07-18 02:19:10,929 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 02:19:11,015 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 02:19:11,232 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:19:11,243 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chung-khoan-my-tiep-tuc-tang-4915736.html
+2025-07-18 02:19:11,308 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:19:11,309 - INFO - Đang lấy nội dung từ: https://vnexpress.net/ha-vien-my-thong-qua-3-du-luat-ve-tien-so-4915726.html
+2025-07-18 02:19:19,613 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 02:19:19,891 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 02:19:20,010 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:19:20,011 - INFO - Đang lấy nội dung từ: https://vnexpress.net/song-co-phieu-bat-dong-san-4915555.html
+2025-07-18 02:19:20,372 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:19:20,374 - INFO - Đang lấy nội dung từ: https://vnexpress.net/du-kien-trien-khai-thanh-toan-bu-tru-chung-khoan-trung-tam-tu-2027-4915672.html
+2025-07-18 02:19:27,621 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 02:19:28,983 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:19:28,985 - INFO - Đang lấy nội dung từ: https://vnexpress.net/fpt-lai-gan-2-260-ty-dong-quy-ii-4915712.html
+2025-07-18 02:19:29,978 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:19:29,981 - INFO - Đang lấy nội dung từ: https://vnexpress.net/de-xuat-ho-tro-3-300-xa-phuong-ban-nong-san-online-4915714.html
+2025-07-18 02:19:37,985 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 02:19:38,298 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 02:19:38,457 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:19:38,466 - INFO - Đang lấy nội dung từ: https://vnexpress.net/viet-nam-se-som-dap-ung-tieu-chi-nang-hang-thi-truong-chung-khoan-4915667.html
+2025-07-18 02:19:38,836 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:19:38,837 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chagee-bi-phat-60-trieu-dong-vi-dung-hinh-anh-giong-duong-dut-doan-4915656.html
+2025-07-18 02:19:46,632 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 02:19:47,138 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:19:47,139 - INFO - Đang lấy nội dung từ: https://vnexpress.net/co-hoi-canh-tranh-cho-nganh-cong-nghiep-tp-hcm-sau-sap-nhap-4915420.html
+2025-07-18 02:19:47,832 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:19:47,833 - INFO - Đang lấy nội dung từ: https://vnexpress.net/chung-khoan-hom-nay-17-7-co-phieu-bat-dong-san-noi-song-4915557.html
+2025-07-18 02:19:58,569 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 02:19:58,974 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:19:59,310 - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1
+2025-07-18 02:19:59,843 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:20:02,571 - INFO - [THÀNH CÔNG] Sử dụng selector: article.fck_detail
+2025-07-18 02:20:02,573 - INFO - Đã thu thập 20 bài báo. Tạo tóm tắt...
+2025-07-18 02:20:10,140 - INFO - Đã nhận tóm tắt từ AI. Chuẩn bị gửi tin nhắn...
+2025-07-18 02:20:10,766 - INFO - Đã gửi tin nhắn đến Telegram thành công.
+2025-07-18 02:20:11,769 - INFO - Đang đóng trình duyệt ảo...
+2025-07-18 02:20:12,010 - INFO - Đã đóng trình duyệt.
+2025-07-18 02:20:12,010 - INFO - --- Hoàn tất chu kỳ. ---
