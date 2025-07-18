@@ -11,3 +11,10 @@ feedparser
 selenium==4.22.0
 google-generativeai
 requests
+feedparser
+requests
+beautifulsoup4
+lxml
+google-generativeai
+python-telegram-bot
+aiohttp
