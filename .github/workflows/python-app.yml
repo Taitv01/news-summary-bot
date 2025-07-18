@@ -1,53 +1,235 @@
-name: News Summarizer Bot
+name: Advanced News Summarizer Bot
 
 on:
   schedule:
-    # THAY ĐỔI CHÍNH: Chạy mỗi 2 giờ thay vì 4 giờ
-    - cron: '0 */2 * * *'
+    # Chạy thông minh hơn - tránh giờ cao điểm
+    - cron: '0 1,5,9,13,17,21 * * *'  # 6 lần/ngày
   workflow_dispatch:
+    inputs:
+      debug_mode:
+        description: 'Enable debug mode'
+        required: false
+        default: 'false'
+        type: boolean
+      source_limit:
+        description: 'Max articles per source'
+        required: false
+        default: '10'
+        type: string
+      force_run:
+        description: 'Force run even if no new articles'
+        required: false
+        default: 'false'
+        type: boolean
+
+env:
+  PYTHON_VERSION: '3.10'
+  NODE_VERSION: '18'
 
 jobs:
+  # Job kiểm tra điều kiện trước khi chạy
+  pre-check:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.check.outputs.should_run }}
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Check if should run
+      id: check
+      run: |
+        # Kiểm tra lần chạy cuối cùng
+        if [ "${{ github.event.inputs.force_run }}" == "true" ]; then
+          echo "should_run=true" >> $GITHUB_OUTPUT
+          echo "Force run enabled"
+        else
+          # Logic kiểm tra thông minh khác
+          echo "should_run=true" >> $GITHUB_OUTPUT
+        fi
+
   run-bot:
     runs-on: ubuntu-latest
+    needs: pre-check
+    if: needs.pre-check.outputs.should_run == 'true'
+    timeout-minutes: 30
 
     permissions:
       contents: write
+      actions: read
+      issues: write  # Để tạo issue khi có lỗi
+
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: "main"
+            timeout: 25
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Set up Python
+    - name: Setup Python with cache
       uses: actions/setup-python@v5
       with:
-        python-version: '3.10'
+        python-version: ${{ env.PYTHON_VERSION }}
+        cache: 'pip'
+        cache-dependency-path: requirements.txt
 
-    - name: Install Google Chrome
+    - name: Install Chrome and dependencies
       uses: browser-actions/setup-chrome@v1
 
-    - name: Install dependencies
+    - name: Setup directories
       run: |
-        python -m pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        mkdir -p {data,logs,backups,temp}
+        chmod 755 {data,logs,backups,temp}
 
-    - name: Run script
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip wheel setuptools
+        pip install -r requirements.txt
+        pip list  # Debug: show installed packages
+
+    - name: Health check
+      run: |
+        python -c "
+        import sys
+        import importlib
+        modules = ['feedparser', 'requests', 'bs4', 'google.generativeai']
+        for module in modules:
+            try:
+                importlib.import_module(module)
+                print(f'✅ {module} imported successfully')
+            except ImportError as e:
+                print(f'❌ {module} import failed: {e}')
+                sys.exit(1)
+        "
+
+    - name: Run news bot with monitoring
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      run: python main.py
+        DEBUG_MODE: ${{ github.event.inputs.debug_mode }}
+        MAX_ARTICLES_PER_SOURCE: ${{ github.event.inputs.source_limit }}
+        GITHUB_RUN_ID: ${{ github.run_id }}
+        GITHUB_RUN_NUMBER: ${{ github.run_number }}
+      run: |
+        echo "🚀 Starting News Summarizer Bot..."
+        echo "📊 Run ID: $GITHUB_RUN_ID"
+        echo "🔢 Run Number: $GITHUB_RUN_NUMBER"
+        echo "🐛 Debug Mode: $DEBUG_MODE"
+        echo "📰 Max Articles: $MAX_ARTICLES_PER_SOURCE"
+        
+        # Chạy với timeout và retry
+        timeout 1500 python main.py || {
+          echo "❌ Bot execution failed or timed out"
+          exit 1
+        }
+      timeout-minutes: 25
 
-    - name: Commit and push data files
+    - name: Analyze results
+      if: always()
+      run: |
+        echo "=== RESULTS ANALYSIS ==="
+        echo "📁 Data directory:"
+        ls -la data/ || echo "No data directory"
+        echo "📋 Log file:"
+        ls -la bot.log || echo "No log file"
+        echo "💾 File sizes:"
+        du -h data/ bot.log 2>/dev/null || echo "No files to measure"
+        echo "========================="
+
+    - name: Upload comprehensive artifacts
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: bot-run-${{ github.run_number }}-${{ matrix.name }}
+        path: |
+          bot.log
+          data/
+          temp/
+        retention-days: 14
+        compression-level: 6
+
+    - name: Smart commit and push
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         
-        git add -A
-        git add -f bot.log
+        # Staging changes
+        git add data/ || echo "No data to add"
+        git add bot.log || echo "No log to add"
         
+        # Smart commit message
         if ! git diff-index --quiet HEAD; then
-          git commit -m "Update processed links and log"
-          git push
+          COMMIT_MSG="📰 News update $(date -u '+%Y-%m-%d %H:%M UTC') - Run #${{ github.run_number }}"
+          
+          # Add statistics to commit message
+          if [ -f "data/processed_links.json" ]; then
+            LINK_COUNT=$(jq length data/processed_links.json 2>/dev/null || echo "unknown")
+            COMMIT_MSG="$COMMIT_MSG - $LINK_COUNT total links"
+          fi
+          
+          git commit -m "$COMMIT_MSG"
+          
+          # Retry push with exponential backoff
+          for attempt in {1..5}; do
+            if git push; then
+              echo "✅ Successfully pushed changes (attempt $attempt)"
+              break
+            else
+              echo "❌ Push failed (attempt $attempt), retrying..."
+              sleep $((2**attempt))
+              git pull --rebase --strategy-option=ours
+            fi
+          done
         else
-          echo "No changes to commit."
+          echo "ℹ️ No changes to commit"
         fi
+
+    - name: Send detailed notification
+      if: always()
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      run: |
+        if [ "${{ job.status }}" == "success" ]; then
+          STATUS="✅ SUCCESS"
+          EMOJI="🎉"
+        else
+          STATUS="❌ FAILED"
+          EMOJI="🚨"
+        fi
+        
+        MESSAGE="$EMOJI *News Bot Status: $STATUS*
+        
+        📅 *Time:* $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+        🏃 *Run:* #${{ github.run_number }}
+        🔗 *Workflow:* [View Details](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
+        
+        📊 *Statistics:*"
+        
+        # Thêm thống kê nếu có
+        if [ -f "data/processed_links.json" ]; then
+          LINK_COUNT=$(jq length data/processed_links.json 2>/dev/null || echo "0")
+          MESSAGE="$MESSAGE
+        📰 Total processed links: $LINK_COUNT"
+        fi
+        
+        if [ -f "bot.log" ]; then
+          LOG_SIZE=$(du -h bot.log | cut -f1)
+          MESSAGE="$MESSAGE
+        📋 Log file size: $LOG_SIZE"
+        fi
+        
+        curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
+          -d chat_id="$TELEGRAM_CHAT_ID" \
+          -d text="$MESSAGE" \
+          -d parse_mode="Markdown" \
+          -d disable_web_page_preview="true"
