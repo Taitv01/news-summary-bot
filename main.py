@@ -54,23 +54,18 @@ def load_rss_sources():
         'VnExpress Thể thao': 'https://vnexpress.net/rss/the-thao.rss',
         'Tuổi Trẻ': 'https://tuoitre.vn/rss/tin-moi-nhat.rss',
         'Thanh Niên': 'https://thanhnien.vn/rss/home.rss',
+        'Pháp luật TP.HCM': 'https://plo.vn/rss/home.rss', # Nguồn này vẫn ổn định
         
-        # Thay thế những nguồn bị lỗi
-        'Zing News': 'https://zingnews.vn/rss/tin-nong.rss',
-        'Lao Động': 'https://laodong.vn/rss/tin-moi-nhat.rss',
-        'Pháp luật TP.HCM': 'https://plo.vn/rss/home.rss',
-        'ICTnews': 'https://ictnews.vn/rss/home.rss',
-        
-        # Quốc tế - Nguồn tin cậy
-        'BBC Tiếng Việt': 'https://www.bbc.com/vietnamese/rss.xml',
-        'VOV': 'https://vov.vn/rss/tin-moi-nhat.rss',
-        
-        # Thêm nguồn dự phòng
-        'Vietnamplus': 'https://www.vietnamplus.vn/rss/tinmoi.rss',
-        'Báo Chính phủ': 'https://baochinhphu.vn/rss/home.rss',
-        'Nhân Dân': 'https://nhandan.vn/rss/chinhtri.rss'
+        # Các nguồn đã được cập nhật URL
+        'Zing News (Thời sự)': 'https://znews.vn/rss/thoi-su.rss',
+        'Lao Động': 'https://laodong.vn/rss/trang-chu.rss',
+        'ICTnews (Công nghệ)': 'https://ictnews.vietnamnet.vn/rss/cong-nghe.rss',
+        'BBC Tiếng Việt': 'http://feeds.bbci.co.uk/vietnamese/rss.xml',
+        'VOV (Tin 24h)': 'https://vov.vn/rss/tin-24h-298.rss',
+        'Vietnamplus': 'https://www.vietnamplus.vn/rss/trangchu.rss',
+        'Báo Chính phủ': 'https://baochinhphu.vn/rss/chinh-sach-moi.rss',
+        'Nhân Dân': 'https://nhandan.vn/api/rss/trang-chu'
     }
-
 def create_robust_session():
     """Tạo session HTTP với retry và pool management."""
     session = requests.Session()
