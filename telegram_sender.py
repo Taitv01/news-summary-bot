@@ -38,6 +38,12 @@ def send_telegram_message(message_text):
         else:
             # Ghi log lỗi chi tiết từ Telegram
             error_description = response_data.get('description', response.text)
+            import re
+
+def escape_markdown_v2(text: str) -> str:
+    """Escapes characters for Telegram's MarkdownV2 parse mode."""
+    escape_chars = r'\_*[]()~`>#+-=|{}.!'
+    return re.sub(f'([{re.escape(escape_chars)}])', r'\\\1', text)
             logger.error(f"Lỗi khi gửi tin đến Telegram: {error_description}")
     except requests.exceptions.RequestException as e:
         logger.error(f"Lỗi kết nối khi gửi tin đến Telegram: {e}")
